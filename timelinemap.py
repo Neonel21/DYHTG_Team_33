@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 from data_sort import identifier
 from config import *
+from dropdown import Dropdown
 
 width, height = 700, 700
 building_colour = (60, 66, 80)
@@ -42,16 +43,23 @@ def draw_building_popup(name, location_df, students_now_df):
 
     inside = students_now_df[students_now_df["Location"] == name]
     violations = int((~inside["within_hours"]).sum()) if not inside.empty else 0
+    violators = inside[~inside["within_hours"]]
+    violation_names = violators["Name"].astype(str).tolist()
+    
 
     text_width = POPUP_WIDTH - POPUP_PADDING * 2
     body_lines = [
         f"Opening times: {info['Opening Times']}",
         f"Students inside now: {len(inside)}",
-        f"Outside opening hours: {violations}",
         "",
     ]
+    if violation_names:
+        body_lines += ["Outside opening hours:"]
+        body_lines += [f"  {n}" for n in violation_names[:10]]
+        if len(violation_names) > 10:
+            body_lines.append(f"  ... and {len(violation_names) - 10} more")
+        body_lines += [""]
 
-    # Panel height grows with the number of lines, then the panel is centred on screen
     height = POPUP_PADDING * 2 + POPUP_TITLE_HEIGHT + len(body_lines) * POPUP_LINE_HEIGHT
     popup_rect = pygame.Rect(
         (canvas.get_width() - POPUP_WIDTH) // 2,
@@ -138,31 +146,34 @@ def is_student_allowed(students_log):
     always_open = (start_openings == 0) & (end_openings == 2400)
 
     within_hours = always_open | (((start >= start_openings) & (end <= end_openings)) 
-                    | ((start + 2400 >= start_openings) & (end + 2400 <= end_openings)))
+                    | ((start + 2400 >= start_openings) & (end_openings + 2400 <= end_openings)))
     students_log["within_hours"] = within_hours
     return students_log
 
 def colour_code_students(id, students):
+    if colour_flag == "none":
+            return STUDENT_COLOURS[0]
+    
     student = students[students["Student ID"] == id]
     if student.empty:
         return STUDENT_COLOURS[0]
-    else:
-        student = student.iloc[0]
+    student = student.iloc[0]
 
-    if colour_flag == "none":
-        return STUDENT_COLOURS[0]
-    elif colour_flag == "year":
+    if colour_flag == "year":
         year_of_study = student["Year of Study"]
         colour = STUDENT_COLOURS[int(year_of_study)]
         return colour
     
-    elif colour_flag == "subject":
+    if colour_flag == "subject":
         subject = student["Subject"]
         if subject in SUBJECTS:
             i = SUBJECTS.index(subject)
         else:
             i = 30
         return STUDENT_COLOURS[i]
+
+    return STUDENT_COLOURS[0]
+
 
 def initialise_building_locations(location_df):
     buildings_array = []
@@ -226,6 +237,9 @@ font = pygame.font.Font('freesansbold.ttf', 18)
 popup_font = pygame.font.SysFont("consolas", 16)
 title_font = pygame.font.SysFont("consolas", 22, bold=True)
 
+colour_options = ["none", "year", "subject"]
+colour_dropdown = Dropdown(10, 50, colour_options, selected=colour_options.index(colour_flag))
+
 is_paused = False
 while not exit:
     for event in pygame.event.get():
@@ -235,14 +249,20 @@ while not exit:
             is_paused = not is_paused
             print("Hi")
         elif event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
-            if selected_building and popup_close_rect and popup_close_rect.collidepoint(event.pos):
-                selected_building = None
-            else:
-                hit = clicked_on_building(event.pos, buildings)
-                if hit is not None:
-                    selected_building = hit[0]
-                elif selected_building and popup_rect and not popup_rect.collidepoint(event.pos):
+            consumed, changed = colour_dropdown.handle_click(event.pos)
+
+            if changed:
+                colour_flag = colour_dropdown.value
+
+            if not consumed:
+                if selected_building and popup_close_rect and popup_close_rect.collidepoint(event.pos):
                     selected_building = None
+                else:
+                    hit = clicked_on_building(event.pos, buildings)
+                    if hit is not None:
+                        selected_building = hit[0]
+                    elif selected_building and popup_rect and not popup_rect.collidepoint(event.pos):
+                        selected_building = None
         elif event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
             selected_building = None
 
@@ -264,6 +284,8 @@ while not exit:
 
     if selected_building:
         popup_rect, popup_close_rect = draw_building_popup(selected_building, location_df, students_to_show_df)
+
+    colour_dropdown.draw(canvas)
 
     pygame.display.update()
     clock.tick(30)
