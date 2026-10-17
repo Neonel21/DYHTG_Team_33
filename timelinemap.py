@@ -1,16 +1,87 @@
 import pygame
 import pandas as pd
 import numpy as np
-import random
+from data_sort import identifier
+from config import *
 
 width, height = 700, 700
-building_colour = (255, 255, 255)
+building_colour = (60, 66, 80)
 building_width = 30
 building_width_half = building_width/2
 student_radius = 2
-student_colour = (0, 255, 0)
 current_time = 0
 minutes = 0
+colour_key_rect = pygame.Rect(40,40,5,5)
+
+selected_building = None
+popup_close_rect = None
+popup_rect = None
+
+colour_flag = "year"
+
+
+
+def wrap_text(text, font, max_width):
+    lines, line = [], ""
+    for word in str(text).split():
+        test = f"{line} {word}".strip()
+        # font.size() returns (width, height) in pixels
+        if font.size(test)[0] <= max_width:
+            line = test
+        else:
+            lines.append(line)
+            line = word
+    lines.append(line)
+    return lines
+
+def draw_building_popup(name, location_df, students_now_df):
+    info = location_df[location_df["Building Name"] == name]
+    if info.empty:
+        return None, None
+    info = info.iloc[0]
+
+    inside = students_now_df[students_now_df["Location"] == name]
+    violations = int((~inside["within_hours"]).sum()) if not inside.empty else 0
+
+    text_width = POPUP_WIDTH - POPUP_PADDING * 2
+    body_lines = [
+        f"Opening times: {info['Opening Times']}",
+        f"Students inside now: {len(inside)}",
+        f"Outside opening hours: {violations}",
+        "",
+    ]
+
+    # Panel height grows with the number of lines, then the panel is centred on screen
+    height = POPUP_PADDING * 2 + POPUP_TITLE_HEIGHT + len(body_lines) * POPUP_LINE_HEIGHT
+    popup_rect = pygame.Rect(
+        (canvas.get_width() - POPUP_WIDTH) // 2,
+        (canvas.get_height() - height) // 2,
+        POPUP_WIDTH,
+        height,
+    )
+
+    pygame.draw.rect(canvas, POPUP_BACKGROUND, popup_rect, border_radius=POPUP_CORNER_RADIUS)
+    pygame.draw.rect(canvas, POPUP_BORDER, popup_rect,
+                     width=POPUP_BORDER_WIDTH, border_radius=POPUP_CORNER_RADIUS)
+
+    title = title_font.render(name, True, POPUP_TITLE_COLOUR)
+    canvas.blit(title, (popup_rect.x + POPUP_PADDING, popup_rect.y + POPUP_PADDING))
+
+    close_rect = pygame.Rect(
+        popup_rect.right - POPUP_CLOSE_SIZE - POPUP_CLOSE_MARGIN,
+        popup_rect.y + POPUP_CLOSE_MARGIN,
+        POPUP_CLOSE_SIZE,
+        POPUP_CLOSE_SIZE,
+    )
+    close_label = popup_font.render("X", True, POPUP_CLOSE_COLOUR)
+    canvas.blit(close_label, close_label.get_rect(center=close_rect.center))
+
+    first_line_y = popup_rect.y + POPUP_PADDING + POPUP_TITLE_HEIGHT
+    for i, line in enumerate(body_lines):
+        text = popup_font.render(line, True, POPUP_TEXT_COLOUR)
+        canvas.blit(text, (popup_rect.x + POPUP_PADDING, first_line_y + i * POPUP_LINE_HEIGHT))
+
+    return popup_rect, close_rect
 
 def strip_times(column):
     times = column.str.split("-", expand=True).astype(int)
@@ -44,8 +115,8 @@ def get_student_locations(security_logs_df, location_df):
     merged = merged.drop(columns="Building Name")
     # Offsets for aesthetics and differtiating students inside buildings
     n = len(merged)
-    merged["lat"] += np.random.uniform(-building_width_half+1, building_width_half-1, n)
-    merged["lon"] += np.random.uniform(-building_width_half+1, building_width_half-1, n)
+    merged["lat"] += np.random.uniform(-building_width_half+2, building_width_half-2, n)
+    merged["lon"] += np.random.uniform(-building_width_half+2, building_width_half-2, n)
     return merged
 
 def is_student_allowed(students_log):
@@ -70,7 +141,45 @@ def is_student_allowed(students_log):
                     | ((start + 2400 >= start_openings) & (end + 2400 <= end_openings)))
     students_log["within_hours"] = within_hours
     return students_log
+
+def colour_code_students(id, students):
+    student = students[students["Student ID"] == id]
+    if student.empty:
+        return STUDENT_COLOURS[0]
+    else:
+        student = student.iloc[0]
+
+    if colour_flag == "none":
+        return STUDENT_COLOURS[0]
+    elif colour_flag == "year":
+        year_of_study = student["Year of Study"]
+        colour = STUDENT_COLOURS[int(year_of_study)]
+        return colour
     
+    elif colour_flag == "subject":
+        subject = student["Subject"]
+        if subject in SUBJECTS:
+            i = SUBJECTS.index(subject)
+        else:
+            i = 30
+        return STUDENT_COLOURS[i]
+
+def initialise_building_locations(location_df):
+    buildings_array = []
+    for name, lat, lon in zip(location_df["Building Name"], location_df["lat"], location_df["lon"]):
+        buildings_array.append([name, lat, lon])
+    return buildings_array
+
+def clicked_on_building(mouse_pos, buildings):
+    for building in buildings:
+        x = mouse_pos[0]
+        y = mouse_pos[1]
+        lat = building[1]
+        lon = building[2]
+        if (x >= lat-building_width_half and x <= lat+building_width_half
+            and y >= lon-building_width_half and y <= lon+building_width_half):
+            return building
+    return None
 
 def draw_buildings(location_df):
     for name, lat, lon in zip(location_df["Building Name"], location_df["lat"], location_df["lon"]):
@@ -83,9 +192,8 @@ def draw_students(students):
             colour = (255, 0, 0)
             # print(id)
         else:
-            colour = student_colour
+            colour = colour_code_students(id, people_df)
         pygame.draw.circle(canvas, colour, (lat, lon), student_radius)
-
 
 
 location_df = pd.read_csv("location_data.csv")
@@ -111,20 +219,39 @@ pygame.display.set_caption("Map")
 exit = False
 clock = pygame.time.Clock()
 
+buildings = initialise_building_locations(location_df)
+
 font = pygame.font.Font('freesansbold.ttf', 18)
 
+popup_font = pygame.font.SysFont("consolas", 16)
+title_font = pygame.font.SysFont("consolas", 22, bold=True)
+
+is_paused = False
 while not exit:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             exit = True
-        if pygame.mouse.get_pressed()[0]:
-            mouse_pos = pygame.get_pos()
+        elif event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
+            is_paused = not is_paused
+            print("Hi")
+        elif event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+            if selected_building and popup_close_rect and popup_close_rect.collidepoint(event.pos):
+                selected_building = None
+            else:
+                hit = clicked_on_building(event.pos, buildings)
+                if hit is not None:
+                    selected_building = hit[0]
+                elif selected_building and popup_rect and not popup_rect.collidepoint(event.pos):
+                    selected_building = None
+        elif event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
+            selected_building = None
 
-    minutes = (minutes + 1) % 1440 # wraps at 24 hours
-    current_time = (minutes // 60) * 100 + minutes % 60 # 0-1439 -> 0000-2359
 
-    students_to_show_df = get_students_on_campus(current_time, student_logs_df)
-    students_to_show_df = is_student_allowed(students_to_show_df)
+    if not is_paused:
+        minutes = (minutes + 1) % 1440
+        current_time = (minutes // 60) * 100 + minutes % 60
+        students_to_show_df = get_students_on_campus(current_time, student_logs_df)
+        students_to_show_df = is_student_allowed(students_to_show_df)
 
     canvas.fill((0, 0, 0))
 
@@ -133,6 +260,10 @@ while not exit:
 
     time_text = f"{minutes // 60:02d}:{minutes % 60:02d}"
     label = font.render(time_text, True, (255, 255, 255))
-    canvas.blit(label, (10, 10))    
+    canvas.blit(label, (10, 10))
+
+    if selected_building:
+        popup_rect, popup_close_rect = draw_building_popup(selected_building, location_df, students_to_show_df)
+
     pygame.display.update()
     clock.tick(30)
