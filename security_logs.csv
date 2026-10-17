@@ -1,0 +1,663 @@
+Student ID,Name,Location,Time
+2495155L,Mohamed Lloyd,Kelvingrove Park,0338-0716
+2470551P,Melanie Patterson,Kelvingrove Park,0301-0533
+2546112P,Eric Parkin,Kelvingrove Park,0720-0843
+2453876J,Scott Johnston,Kelvingrove Park,0755-0837
+2549181S,Margaret Saunders,Queen Margaret Union,0843-1052
+2912324G,Jonny Craig,Library,0854-0940
+2426424M,Hannah Murphy,Queen Margaret Union,0838-0938
+2729563B,Paul Butler,Kelvingrove Park,0824-1037
+2843155S,Tony Stokes,Boyd Orr Building,0845-1047
+2861294M,Georgia Moore,Kelvingrove Park,0845-0930
+2481600R,Jacob Richardson,Boyd Orr Building,0850-0907
+2647370S,Brenda Steele,Boyd Orr Building,0817-0950
+2510379P,Abdul Parkes,Library,0830-0947
+2831841M,Charlotte Matthews,Library,0823-0942
+2547270B,Katie Bell,Kelvingrove Park,0833-0906
+2549962J,Teresa Jones,Library,0820-0958
+2687223Y,Heather Yates,Kelvingrove Park,0811-0958
+2710339J,Paul Jackson,Queen Margaret Union,0812-1015
+2611516B,Carolyn Bond,St Andrews Building,0900-1200
+2527287T,Danny Thomas,Main Building,0900-1100
+2878087C,Danielle Cox,Kelvin Building,0900-1000
+2595487S,Martin Smith,St Andrews Building,0900-1200
+2730211T,Chloe Tyler,Kelvingrove Park,0900-0954
+2639862H,Stephen Hughes,Kelvin Building,0900-1000
+2498867L,Susan Little,Main Building,0900-1100
+2448977C,Gareth Clayton,Main Building,0900-1100
+2772741H,Anthony Hughes,Kelvin Building,0900-1000
+2470543S,Barbara Singh,Main Building,0900-1100
+2875227P,William Palmer,Wolfson Medical Building,0925-1030
+2760042P,Amy Powell,Kelvin Building,0900-1000
+2521060T,Jacqueline Thomas,St Andrews Building,0900-1200
+2453097L,Joanna Lynch,St Andrews Building,0900-1200
+2544001M,Fiona Miah,Kelvin Building,0900-1000
+2739531T,Hollie Taylor,St Andrews Building,0900-1200
+2714499B,Anna Butler,Main Building,0900-1100
+2683781G,Toby Grant,Kelvin Building,0900-1000
+2786843M,Abdul Murphy,St Andrews Building,0900-1200
+2665521F,Suzanne Fox,Kelvin Building,0900-1000
+2884930W,Ross Wood,St Andrews Building,0900-1200
+2644470C,Fiona Chapman,Adam Smith Building,0957-1003
+2728016B,Sarah Bradshaw,Library,0922-1011
+2624636S,Henry Sharp,Kelvin Building,0900-1000
+2433194F,Teresa Ford,Main Building,0900-1100
+2797619M,Russell Matthews,Kelvin Building,0900-1000
+2784969D,Kimberley Dickinson,Kelvin Building,0900-1000
+2537493D,Nathan Davis,Sir Alwyn Williams Building,0925-1100
+2798507C,Valerie Cross,Main Building,0900-1100
+2642933A,Alan Allen,Kelvin Building,0900-1000
+2661827A,Rita Arnold,Kelvin Building,0900-1000
+2893827J,Elliott Jones,St Andrews Building,0900-1200
+2519606S,Laura Skinner,St Andrews Building,0900-1200
+2678631W,Sandra Wilson,Main Building,0900-1100
+2541160O,Gerard Oliver,St Andrews Building,0900-1200
+2522843B,Olivia Baker,Main Building,0900-1100
+2681806C,William Cook,Main Building,0900-1100
+2465684B,Gerald Bell,Main Building,0900-1100
+2763908W,Owen Webster,Main Building,0900-1100
+2558094B,Robin Brown,Main Building,0900-1100
+2764614J,Annette James,Kelvin Building,0900-1000
+2580207S,Neil Stone,Library,0913-1027
+2445601S,Keith Saunders,St Andrews Building,0900-1200
+2834518P,Brenda Perry,Main Building,0900-1100
+2438411P,Kerry Pearce,Adam Smith Building,0943-1047
+2464353G,Shirley Griffiths,Main Building,0900-1100
+2447060H,Sarah Harvey,Glasgow University Union,0919-1020
+2798501F,Oliver Ford,Main Building,0900-1100
+2868646W,Howard Woodward,Main Building,0900-1100
+2834184T,Sandra Taylor,Kelvin Building,0900-1000
+2494714C,Nigel Collins,Kelvin Building,0900-1000
+2546112P,Eric Parkin,Queen Margaret Union,0916-1126
+2761310W,Keith Wood,St Andrews Building,0900-1200
+2831410G,Amelia Green,Main Building,0900-1100
+2750326B,Mark Begum,Main Building,0900-1100
+2519332H,Anne Hussain,Kelvin Building,0900-1000
+2713405W,Adrian Williams,Main Building,0900-1100
+2677899P,Anna Parker,Main Building,0900-1100
+2477517J,Gerald Jones,Kelvingrove Park,0929-1150
+2749705T,Joe Thorpe,Main Building,0900-1100
+2470481H,Marc Harrison,James Watt Building,0932-1030
+2792337W,Stuart Woods,Queen Margaret Union,0942-1041
+2469836C,Deborah Carter,Kelvin Building,0900-1000
+2645195D,Jordan Dickinson,Boyd Orr Building,1000-1200
+2878087C,Danielle Cox,Sir Alwyn Williams Building,1028-1100
+2547258S,Melissa Stewart,Main Building,1000-1200
+2730211T,Chloe Tyler,Boyd Orr Building,1000-1200
+2813225b,Stuart Wands,Boyd Orr Building,1000-1200
+2455440S,Matthew Smith,Adam Smith Building,1000-1100
+2621970C,Bryan Cartwright,Adam Smith Building,1000-1100
+2685206G,Rebecca Griffiths,Joseph Black Building,1000-1100
+2454540H,Mandy Howell,Adam Smith Building,1000-1100
+2772741H,Anthony Hughes,Library,1046-1358
+2498842W,Josh Walker,Joseph Black Building,1000-1100
+2912324G,Jonny Craig,Joseph Black Building,1000-1045
+2572412H,Eleanor Harvey,Boyd Orr Building,1000-1200
+2454863F,Joan Francis,James Watt Building,1000-1300
+2453876J,Scott Johnston,Boyd Orr Building,1000-1200
+2832313W,Marilyn White,Boyd Orr Building,1000-1200
+2625197Y,Kelly Young,Adam Smith Building,1000-1100
+2511100D,Paige Dickinson,Adam Smith Building,1000-1100
+2665521F,Suzanne Fox,St Andrews Building,1049-1345
+2725476K,Albert King,Joseph Black Building,1000-1100
+2446001M,Vincent Miah,Joseph Black Building,1000-1100
+2730014J,Rosemary Jones,Boyd Orr Building,1000-1200
+2425599J,Angela Jones,Main Building,1000-1200
+2837034T,Valerie Turner,James Watt Building,1007-1054
+2624636S,Henry Sharp,Kelvingrove Park,1025-1130
+2548702L,Bradley Lewis,Main Building,1000-1200
+2797619M,Russell Matthews,Glasgow University Union,1042-1357
+2583004W,Francis Watkins,Adam Smith Building,1000-1100
+2567647G,Rosemary Grant,Boyd Orr Building,1000-1200
+2681320D,Bradley Davies,Main Building,1000-1200
+2523112J,Beth Jones,Glasgow University Union,1027-1237
+2896021C,Simon Clark,Adam Smith Building,1000-1100
+2758447O,Donna Oliver,Adam Smith Building,1000-1100
+2661827A,Rita Arnold,Library,1048-1137
+2729563B,Paul Butler,James Watt Building,1000-1300
+2734142L,Jenna Leonard,Joseph Black Building,1000-1100
+2861294M,Georgia Moore,Adam Smith Building,1000-1100
+2525914R,Barry Robinson,Adam Smith Building,1000-1100
+2526191H,Mohammed Harvey,Boyd Orr Building,1000-1200
+2495155L,Mohamed Lloyd,Main Building,1037-1106
+2581559M,Jayne Morgan,Main Building,1000-1200
+2481600R,Jacob Richardson,James Watt Building,1000-1300
+2824152H,Marian Hutchinson,Adam Smith Building,1000-1100
+2882607B,Jane Burns,Adam Smith Building,1000-1100
+2654342R,Kate Randall,James Watt Building,1000-1300
+2882334J,Bethany Johnson,James Watt Building,1000-1300
+2618619A,Aimee Andrews,Joseph Black Building,1000-1100
+2480281E,Sharon Ellis,Boyd Orr Building,1000-1200
+2647370S,Brenda Steele,James Watt Building,1000-1300
+2510379P,Abdul Parkes,Adam Smith Building,1000-1100
+2874921K,Lorraine Khan,Main Building,1000-1200
+2791185W,Jennifer White,Adam Smith Building,1000-1100
+2818528C,Paul Cox,Boyd Orr Building,1000-1200
+2570078S,Rosemary Smith,Joseph Black Building,1000-1100
+2465403M,Michael Mills,Main Building,1000-1200
+2494714C,Nigel Collins,Adam Smith Building,1014-1318
+2470551P,Melanie Patterson,Boyd Orr Building,1000-1200
+2821638S,Ross Singh,Adam Smith Building,1000-1100
+2723085H,Norman Hart,Sir Alwyn Williams Building,1024-1237
+2774868P,Alice Patterson,Boyd Orr Building,1000-1200
+2690785M,Eleanor Marsh,Adam Smith Building,1000-1100
+2831841M,Charlotte Matthews,Boyd Orr Building,1000-1200
+2818729W,Jack Watson,Boyd Orr Building,1000-1200
+2737433D,Matthew Davis,Main Building,1000-1200
+2547270B,Katie Bell,Adam Smith Building,1000-1100
+2728928M,Abdul Murray,Main Building,1000-1200
+2843288W,Derek Wilson,Boyd Orr Building,1000-1200
+2755520M,Marion McCarthy,Joseph Black Building,1000-1100
+2568478F,Edward Forster,Adam Smith Building,1000-1100
+2774753B,Jill Banks,Adam Smith Building,1000-1100
+2691086J,Callum Jenkins,Joseph Black Building,1000-1100
+2490833B,Danielle Black,Boyd Orr Building,1000-1200
+2571499C,Anne Cooper,Main Building,1000-1200
+2533061J,Antony James,Joseph Black Building,1000-1100
+2448644B,Graeme Barnes,Joseph Black Building,1000-1100
+2739234J,Sophie Johnston,Joseph Black Building,1000-1100
+2663801S,Gary Singh,Boyd Orr Building,1000-1200
+2522391J,Lee James,St Andrews Building,1042-1129
+2711217D,Marie Douglas,Joseph Black Building,1000-1100
+2870428T,Carole Taylor,Main Building,1000-1200
+2858027D,Lynda Davis,Joseph Black Building,1000-1100
+2456431B,Oscar Brown,James Watt Building,1000-1300
+2687223Y,Heather Yates,James Watt Building,1000-1300
+2795502Y,Shaun Yates,Joseph Black Building,1000-1100
+2527287T,Danny Thomas,Queen Margaret Union,1113-1514
+2878087C,Danielle Cox,Library,1110-1503
+2455440S,Matthew Smith,Boyd Orr Building,1120-1416
+2639862H,Stephen Hughes,Sir Alwyn Williams Building,1113-1315
+2621970C,Bryan Cartwright,James Watt Building,1105-1537
+2685206G,Rebecca Griffiths,James Watt Building,1101-1553
+2498867L,Susan Little,Kelvingrove Park,1119-1422
+2454540H,Mandy Howell,James Watt Building,1109-1226
+2470543S,Barbara Singh,Adam Smith Building,1103-1324
+2625929L,Lynne Lee,Main Building,1100-1300
+2498842W,Josh Walker,Queen Margaret Union,1141-1259
+2875227P,William Palmer,Main Building,1100-1300
+2760042P,Amy Powell,Queen Margaret Union,1112-1400
+2714499B,Anna Butler,Wolfson Medical Building,1119-1552
+2625197Y,Kelly Young,Library,1116-1525
+2549181S,Margaret Saunders,Boyd Orr Building,1105-1230
+2683781G,Toby Grant,Queen Margaret Union,1120-1402
+2511100D,Paige Dickinson,Boyd Orr Building,1106-1550
+2820311J,Pamela Jones,Main Building,1100-1300
+2725476K,Albert King,Queen Margaret Union,1130-1420
+2731502W,Teresa Wright,Main Building,1100-1300
+2644470C,Fiona Chapman,Main Building,1100-1300
+2837034T,Valerie Turner,Main Building,1100-1300
+2721938H,Joanna Howell,Main Building,1100-1300
+2433194F,Teresa Ford,Queen Margaret Union,1132-1259
+2627185W,Anne Webb,Kelvingrove Park,1103-1257
+2784969D,Kimberley Dickinson,Queen Margaret Union,1136-1419
+2537493D,Nathan Davis,Main Building,1100-1300
+2798507C,Valerie Cross,Queen Margaret Union,1141-1212
+2642933A,Alan Allen,Main Building,1118-1328
+2896021C,Simon Clark,Queen Margaret Union,1137-1549
+2758447O,Donna Oliver,Glasgow University Union,1117-1454
+2422827J,Kieran James,Main Building,1100-1300
+2843155S,Tony Stokes,Main Building,1100-1300
+2464451S,Jasmine Simpson,Main Building,1100-1300
+2734142L,Jenna Leonard,Boyd Orr Building,1120-1357
+2456431B,Oscar Brown,Boyd Orr Building,1116-1232
+2861294M,Georgia Moore,James Watt Building,1142-1427
+2678631W,Sandra Wilson,St Andrews Building,1119-1245
+2522843B,Olivia Baker,St Andrews Building,1142-1431
+2721346E,Sophie Evans,Main Building,1100-1300
+2824152H,Marian Hutchinson,Adam Smith Building,1159-1441
+2681806C,William Cook,Kelvingrove Park,1104-1347
+2465684B,Gerald Bell,James Watt Building,1112-1431
+2763908W,Owen Webster,Wolfson Medical Building,1155-1341
+2764614J,Annette James,Boyd Orr Building,1116-1500
+2580207S,Neil Stone,Main Building,1100-1300
+2834518P,Brenda Perry,Sir Alwyn Williams Building,1157-1503
+2438411P,Kerry Pearce,Main Building,1100-1300
+2464353G,Shirley Griffiths,Kelvingrove Park,1149-1517
+2618619A,Aimee Andrews,James Watt Building,1129-1410
+2447060H,Sarah Harvey,St Andrews Building,1127-1249
+2510379P,Abdul Parkes,Adam Smith Building,1114-1317
+2791185W,Jennifer White,Main Building,1137-1405
+2798501F,Oliver Ford,St Andrews Building,1157-1335
+2690785M,Eleanor Marsh,Wolfson Medical Building,1111-1319
+2831410G,Amelia Green,Library,1127-1308
+2750326B,Mark Begum,St Andrews Building,1114-1517
+2553818H,Stacey Harrison,Glasgow University Union,1106-1234
+2547270B,Katie Bell,Main Building,1134-1516
+2713405W,Adrian Williams,Main Building,1129-1508
+2549962J,Teresa Jones,Main Building,1100-1300
+2677899P,Anna Parker,Kelvingrove Park,1149-1535
+2568478F,Edward Forster,Kelvingrove Park,1103-1346
+2752222W,Tom Williams,Main Building,1100-1300
+2691086J,Callum Jenkins,Library,1148-1533
+2470481H,Marc Harrison,Main Building,1100-1300
+2792337W,Stuart Woods,Main Building,1100-1300
+2410968J,Lee Jones,Main Building,1100-1300
+2533061J,Antony James,Library,1135-1330
+2827341C,Martyn Cox,Kelvingrove Park,1154-1234
+2411432W,Jeremy Wood,Main Building,1100-1300
+2522391J,Lee James,Kelvingrove Park,1151-1233
+2858027D,Lynda Davis,Library,1152-1540
+2469836C,Deborah Carter,James Watt Building,1156-1201
+2795502Y,Shaun Yates,Boyd Orr Building,1116-1539
+2558530F,Luke Frost,Main Building,1100-1300
+2446198D,Russell Dixon,Main Building,1100-1300
+2912324G,Jonny Craig,Library,1310-1723
+2611516B,Carolyn Bond,Wolfson Medical Building,1208-1516
+2645195D,Jordan Dickinson,Queen Margaret Union,1212-1404
+2547258S,Melissa Stewart,Adam Smith Building,1235-1333
+2730211T,Chloe Tyler,Library,1251-1652
+2448977C,Gareth Clayton,St Andrews Building,1253-1520
+2454540H,Mandy Howell,Kelvingrove Park,1243-1347
+2521060T,Jacqueline Thomas,Main Building,1204-1433
+2572412H,Eleanor Harvey,Boyd Orr Building,1216-1424
+2453097L,Joanna Lynch,Library,1202-1652
+2832313W,Marilyn White,Sir Alwyn Williams Building,1206-1505
+2739531T,Hollie Taylor,St Andrews Building,1248-1434
+2446001M,Vincent Miah,St Andrews Building,1204-1404
+2884930W,Ross Wood,Queen Margaret Union,1213-1602
+2730014J,Rosemary Jones,Sir Alwyn Williams Building,1243-1447
+2425599J,Angela Jones,Kelvingrove Park,1214-1350
+2548702L,Bradley Lewis,St Andrews Building,1247-1324
+2583004W,Francis Watkins,Wolfson Medical Building,1204-1635
+2567647G,Rosemary Grant,Library,1232-1525
+2681320D,Bradley Davies,Boyd Orr Building,1210-1634
+2661827A,Rita Arnold,Library,1205-1400
+2893827J,Elliott Jones,Wolfson Medical Building,1229-1638
+2525914R,Barry Robinson,Glasgow University Union,1230-1347
+2541160O,Gerard Oliver,Kelvingrove Park,1259-1356
+2581559M,Jayne Morgan,Adam Smith Building,1246-1342
+2456431B,Oscar Brown,Kelvingrove Park,1210-1532
+2813225b,Stuart Wands,Kelvingrove Park,1243-1319
+2882607B,Jane Burns,Adam Smith Building,1225-1329
+2558094B,Robin Brown,Library,1206-1355
+2445601S,Keith Saunders,Library,1215-1516
+2480281E,Sharon Ellis,Library,1215-1359
+2546112P,Eric Parkin,Glasgow University Union,1217-1413
+2874921K,Lorraine Khan,Adam Smith Building,1253-1344
+2818528C,Paul Cox,Main Building,1226-1628
+2868646W,Howard Woodward,Sir Alwyn Williams Building,1221-1606
+2834184T,Sandra Taylor,Main Building,1229-1458
+2570078S,Rosemary Smith,Main Building,1239-1514
+2821638S,Ross Singh,James Watt Building,1250-1551
+2761310W,Keith Wood,Library,1232-1454
+2818729W,Jack Watson,St Andrews Building,1228-1411
+2728928M,Abdul Murray,Queen Margaret Union,1235-1533
+2843288W,Derek Wilson,Glasgow University Union,1213-1609
+2519332H,Anne Hussain,James Watt Building,1221-1355
+2755520M,Marion McCarthy,Queen Margaret Union,1252-1434
+2774753B,Jill Banks,St Andrews Building,1236-1328
+2749705T,Joe Thorpe,James Watt Building,1234-1536
+2786843M,Abdul Murphy,Sir Alwyn Williams Building,1208-1302
+2490833B,Danielle Black,Adam Smith Building,1229-1606
+2571499C,Anne Cooper,Boyd Orr Building,1254-1615
+2448644B,Graeme Barnes,Glasgow University Union,1206-1556
+2739234J,Sophie Johnston,Glasgow University Union,1205-1604
+2663801S,Gary Singh,Boyd Orr Building,1256-1434
+2711217D,Marie Douglas,Boyd Orr Building,1253-1453
+2595487S,Martin Smith,Adam Smith Building,1346-1700
+2498857H,Vincent Herbert,Wolfson Medical Building,1300-1500
+2470543S,Barbara Singh,St Andrews Building,1341-1425
+2625929L,Lynne Lee,James Watt Building,1302-1653
+2498842W,Josh Walker,Glasgow University Union,1312-1647
+2454863F,Joan Francis,Sir Alwyn Williams Building,1334-1405
+2544001M,Fiona Miah,Library,1319-1546
+2549181S,Margaret Saunders,Wolfson Medical Building,1300-1500
+2456431B,Oscar Brown,Queen Margaret Union,1343-1643
+2820311J,Pamela Jones,Boyd Orr Building,1349-1638
+2426424M,Hannah Murphy,Wolfson Medical Building,1300-1500
+2731502W,Teresa Wright,Glasgow University Union,1331-1617
+2644470C,Fiona Chapman,Sir Alwyn Williams Building,1309-1405
+2728016B,Sarah Bradshaw,Wolfson Medical Building,1300-1500
+2837034T,Valerie Turner,Glasgow University Union,1318-1648
+2877082J,Jeffrey Jones,Wolfson Medical Building,1300-1500
+2786843M,Abdul Murphy,Queen Maragret Building,1353-1527
+2721938H,Joanna Howell,Queen Margaret Union,1349-1749
+2624636S,Henry Sharp,Library,1350-1513
+2433194F,Teresa Ford,Main Building,1331-1406
+2627185W,Anne Webb,Wolfson Medical Building,1300-1500
+2537493D,Nathan Davis,Queen Margaret Union,1344-1626
+2523112J,Beth Jones,Wolfson Medical Building,1300-1500
+2798507C,Valerie Cross,St Andrews Building,1340-1614
+2642933A,Alan Allen,Sir Alwyn Williams Building,1352-1645
+2843155S,Tony Stokes,St Andrews Building,1309-1525
+2464451S,Jasmine Simpson,Wolfson Medical Building,1359-1511
+2526191H,Mohammed Harvey,Glasgow University Union,1321-1446
+2678631W,Sandra Wilson,Glasgow University Union,1357-1544
+2495155L,Mohamed Lloyd,Wolfson Medical Building,1300-1500
+2541160O,Gerard Oliver,Main Building,1359-1556
+2721346E,Sophie Evans,Kelvingrove Park,1336-1628
+2581559M,Jayne Morgan,Adam Smith Building,1354-1700
+2882607B,Jane Burns,Library,1348-1510
+2733956H,Jill Hill,Wolfson Medical Building,1300-1500
+2438411P,Kerry Pearce,Main Building,1329-1406
+2654342R,Kate Randall,Kelvingrove Park,1321-1546
+2882334J,Bethany Johnson,Boyd Orr Building,1331-1423
+2447060H,Sarah Harvey,Wolfson Medical Building,1300-1500
+2647370S,Brenda Steele,Main Building,1305-1556
+2510379P,Abdul Parkes,Main Building,1352-1558
+2494714C,Nigel Collins,Sir Alwyn Williams Building,1359-1700
+2470551P,Melanie Patterson,Boyd Orr Building,1337-1435
+2723085H,Norman Hart,Wolfson Medical Building,1300-1500
+2831841M,Charlotte Matthews,St Andrews Building,1342-1621
+2553818H,Stacey Harrison,Wolfson Medical Building,1300-1500
+2737433D,Matthew Davis,Main Building,1349-1640
+2477517J,Gerald Jones,Wolfson Medical Building,1300-1500
+2774753B,Jill Banks,St Andrews Building,1350-1649
+2470481H,Marc Harrison,Queen Margaret Union,1311-1704
+2792337W,Stuart Woods,James Watt Building,1340-1514
+2827341C,Martyn Cox,Wolfson Medical Building,1300-1500
+2411432W,Jeremy Wood,Sir Alwyn Williams Building,1322-1700
+2819085J,Rhys James,Wolfson Medical Building,1300-1500
+2522391J,Lee James,Wolfson Medical Building,1300-1500
+2870428T,Carole Taylor,Glasgow University Union,1349-1457
+2687223Y,Heather Yates,Sir Alwyn Williams Building,1344-1620
+2469836C,Deborah Carter,Kelvingrove Park,1319-1540
+2558530F,Luke Frost,James Watt Building,1313-1451
+2710339J,Paul Jackson,Wolfson Medical Building,1300-1500
+2645195D,Jordan Dickinson,Library,1437-1837
+2547258S,Melissa Stewart,Boyd Orr Building,1421-1535
+2639862H,Stephen Hughes,Main Building,1431-1700
+2454540H,Mandy Howell,James Watt Building,1447-1605
+2772741H,Anthony Hughes,Queen Margaret Union,1450-1806
+2875227P,William Palmer,Adam Smith Building,1417-1700
+2521060T,Jacqueline Thomas,Wolfson Medical Building,1437-1511
+2572412H,Eleanor Harvey,St Andrews Building,1442-1523
+2683781G,Toby Grant,Library,1407-1629
+2665521F,Suzanne Fox,Queen Margaret Union,1423-1826
+2425599J,Angela Jones,Queen Margaret Union,1446-1519
+2644470C,Fiona Chapman,Queen Margaret Union,1437-1855
+2433194F,Teresa Ford,Glasgow University Union,1437-1628
+2548702L,Bradley Lewis,Sir Alwyn Williams Building,1425-1650
+2797619M,Russell Matthews,Kelvingrove Park,1455-1836
+2784969D,Kimberley Dickinson,James Watt Building,1438-1700
+2734142L,Jenna Leonard,Adam Smith Building,1431-1700
+2519606S,Laura Skinner,Adam Smith Building,1444-1520
+2525914R,Barry Robinson,Sir Alwyn Williams Building,1407-1646
+2481600R,Jacob Richardson,Kelvingrove Park,1438-1845
+2681806C,William Cook,Wolfson Medical Building,1403-1700
+2763908W,Owen Webster,Main Building,1442-1700
+2558094B,Robin Brown,James Watt Building,1401-1700
+2438411P,Kerry Pearce,St Andrews Building,1425-1700
+2618619A,Aimee Andrews,James Watt Building,1454-1653
+2480281E,Sharon Ellis,Sir Alwyn Williams Building,1438-1615
+2874921K,Lorraine Khan,Sir Alwyn Williams Building,1452-1530
+2791185W,Jennifer White,Main Building,1456-1636
+2798501F,Oliver Ford,James Watt Building,1435-1623
+2465403M,Michael Mills,Wolfson Medical Building,1403-1700
+2519332H,Anne Hussain,Adam Smith Building,1448-1700
+2549962J,Teresa Jones,Adam Smith Building,1433-1700
+2752222W,Tom Williams,Main Building,1402-1700
+2410968J,Lee Jones,Kelvingrove Park,1445-1602
+2533061J,Antony James,Main Building,1410-1700
+2813225b,Stuart Wands,St Andrews Building,1452-1616
+2663801S,Gary Singh,Main Building,1456-1700
+2527287T,Danny Thomas,Kelvingrove Park,1558-1906
+2498857H,Vincent Herbert,Wolfson Medical Building,1553-1700
+2455440S,Matthew Smith,Queen Margaret Union,1509-1748
+2498867L,Susan Little,Glasgow University Union,1558-1808
+2521060T,Jacqueline Thomas,Wolfson Medical Building,1518-1700
+2832313W,Marilyn White,Main Building,1526-1700
+2714499B,Anna Butler,St Andrews Building,1558-1638
+2549181S,Margaret Saunders,Wolfson Medical Building,1536-1700
+2725476K,Albert King,Queen Margaret Union,1532-1721
+2425599J,Angela Jones,Boyd Orr Building,1552-1936
+2728016B,Sarah Bradshaw,Glasgow University Union,1508-1956
+2877082J,Jeffrey Jones,Library,1532-1843
+2624636S,Henry Sharp,James Watt Building,1555-1700
+2627185W,Anne Webb,Kelvingrove Park,1551-1630
+2567647G,Rosemary Grant,Adam Smith Building,1535-1700
+2523112J,Beth Jones,Kelvingrove Park,1510-1855
+2758447O,Donna Oliver,Kelvingrove Park,1519-1901
+2661827A,Rita Arnold,Glasgow University Union,1538-1713
+2422827J,Kieran James,Sir Alwyn Williams Building,1532-1700
+2843155S,Tony Stokes,St Andrews Building,1528-1700
+2464451S,Jasmine Simpson,Boyd Orr Building,1550-1626
+2526191H,Mohammed Harvey,James Watt Building,1544-1613
+2522843B,Olivia Baker,James Watt Building,1535-1700
+2824152H,Marian Hutchinson,Wolfson Medical Building,1550-1700
+2882607B,Jane Burns,Queen Margaret Union,1544-1856
+2546112P,Eric Parkin,Main Building,1512-1700
+2465684B,Gerald Bell,Glasgow University Union,1508-1711
+2733956H,Jill Hill,Glasgow University Union,1551-1625
+2764614J,Annette James,Library,1511-1610
+2580207S,Neil Stone,Boyd Orr Building,1525-1908
+2445601S,Keith Saunders,Sir Alwyn Williams Building,1547-1654
+2834518P,Brenda Perry,Wolfson Medical Building,1535-1700
+2882334J,Bethany Johnson,James Watt Building,1509-1700
+2834184T,Sandra Taylor,Wolfson Medical Building,1506-1700
+2761310W,Keith Wood,Library,1549-1604
+2723085H,Norman Hart,St Andrews Building,1541-1617
+2690785M,Eleanor Marsh,St Andrews Building,1523-1700
+2831410G,Amelia Green,Main Building,1504-1700
+2774868P,Alice Patterson,Library,1635-1750
+2750326B,Mark Begum,James Watt Building,1542-1631
+2553818H,Stacey Harrison,Main Building,1513-1700
+2713405W,Adrian Williams,Adam Smith Building,1557-1616
+2677899P,Anna Parker,Wolfson Medical Building,1558-1700
+2755520M,Marion McCarthy,Adam Smith Building,1539-1700
+2568478F,Edward Forster,Main Building,1530-1700
+2749705T,Joe Thorpe,Glasgow University Union,1555-1724
+2792337W,Stuart Woods,Queen Margaret Union,1546-1709
+2827341C,Martyn Cox,James Watt Building,1548-1700
+2870428T,Carole Taylor,Library,1536-1902
+2558530F,Luke Frost,Adam Smith Building,1507-1611
+2710339J,Paul Jackson,Glasgow University Union,1516-1755
+2611516B,Carolyn Bond,Adam Smith Building,1624-1700
+2547258S,Melissa Stewart,Queen Margaret Union,1641-1703
+2774868P,Alice Patterson,St Andrews Building,1625-1700
+2621970C,Bryan Cartwright,Glasgow University Union,1620-2001
+2448977C,Gareth Clayton,Main Building,1644-1700
+2470543S,Barbara Singh,St Andrews Building,1631-1700
+2572412H,Eleanor Harvey,St Andrews Building,1652-1700
+2454863F,Joan Francis,Queen Margaret Union,1659-1929
+2544001M,Fiona Miah,St Andrews Building,1612-1700
+2739531T,Hollie Taylor,Queen Margaret Union,1633-1905
+2714499B,Anna Butler,Sir Alwyn Williams Building,1650-1700
+2625197Y,Kelly Young,Wolfson Medical Building,1632-1700
+2426424M,Hannah Murphy,Sir Alwyn Williams Building,1624-1700
+2730014J,Rosemary Jones,St Andrews Building,1631-1700
+2433194F,Teresa Ford,Main Building,1658-1700
+2896021C,Simon Clark,Main Building,1607-1700
+2519606S,Laura Skinner,Queen Margaret Union,1638-1903
+2525914R,Barry Robinson,Main Building,1649-1700
+2526191H,Mohammed Harvey,Boyd Orr Building,1654-1917
+2678631W,Sandra Wilson,Sir Alwyn Williams Building,1601-1700
+2721346E,Sophie Evans,Sir Alwyn Williams Building,1639-1700
+2764614J,Annette James,Glasgow University Union,1632-1800
+2464353G,Shirley Griffiths,Wolfson Medical Building,1619-1700
+2654342R,Kate Randall,Glasgow University Union,1622-2035
+2447060H,Sarah Harvey,Sir Alwyn Williams Building,1630-1700
+2647370S,Brenda Steele,Queen Margaret Union,1602-1733
+2510379P,Abdul Parkes,Wolfson Medical Building,1621-1700
+2874921K,Lorraine Khan,Boyd Orr Building,1627-1853
+2868646W,Howard Woodward,Boyd Orr Building,1659-1739
+2570078S,Rosemary Smith,Kelvingrove Park,1645-1705
+2547270B,Katie Bell,Glasgow University Union,1645-1842
+2728928M,Abdul Murray,Adam Smith Building,1603-1700
+2713405W,Adrian Williams,Wolfson Medical Building,1617-1700
+2774753B,Jill Banks,Wolfson Medical Building,1658-1700
+2691086J,Callum Jenkins,Glasgow University Union,1619-1832
+2490833B,Danielle Black,Queen Margaret Union,1649-1715
+2410968J,Lee Jones,James Watt Building,1619-1700
+2819085J,Rhys James,Adam Smith Building,1613-1700
+2522391J,Lee James,Wolfson Medical Building,1658-1700
+2858027D,Lynda Davis,Sir Alwyn Williams Building,1615-1700
+2687223Y,Heather Yates,Library,1626-1935
+2469836C,Deborah Carter,James Watt Building,1615-1700
+2558530F,Luke Frost,Glasgow University Union,1658-1848
+2498857H,Vincent Herbert,Boyd Orr Building,1749-1944
+2730211T,Chloe Tyler,Glasgow University Union,1743-2012
+2453876J,Scott Johnston,Library,1703-1943
+2455440S,Matthew Smith,Glasgow University Union,1755-1811
+2470543S,Barbara Singh,Kelvingrove Park,1735-2016
+2625929L,Lynne Lee,Library,1753-2153
+2625197Y,Kelly Young,Kelvingrove Park,1745-1901
+2683781G,Toby Grant,Kelvingrove Park,1705-1842
+2548702L,Bradley Lewis,Queen Margaret Union,1751-2123
+2537493D,Nathan Davis,Boyd Orr Building,1716-2100
+2798507C,Valerie Cross,Queen Margaret Union,1705-2020
+2464451S,Jasmine Simpson,Queen Margaret Union,1737-2000
+2893827J,Elliott Jones,Queen Margaret Union,1737-2144
+2495155L,Mohamed Lloyd,Kelvingrove Park,1744-1953
+2541160O,Gerard Oliver,Boyd Orr Building,1718-1941
+2581559M,Jayne Morgan,Library,1715-2059
+2465684B,Gerald Bell,Kelvingrove Park,1733-2157
+2733956H,Jill Hill,Library,1759-1840
+2647370S,Brenda Steele,Queen Margaret Union,1754-1807
+2868646W,Howard Woodward,Glasgow University Union,1749-2107
+2465403M,Michael Mills,Glasgow University Union,1705-1827
+2821638S,Ross Singh,Glasgow University Union,1717-2027
+2690785M,Eleanor Marsh,Glasgow University Union,1747-1954
+2831841M,Charlotte Matthews,Library,1737-2147
+2750326B,Mark Begum,Queen Margaret Union,1728-1942
+2737433D,Matthew Davis,Queen Margaret Union,1755-2038
+2519332H,Anne Hussain,Boyd Orr Building,1755-1906
+2713405W,Adrian Williams,Glasgow University Union,1744-2118
+2549962J,Teresa Jones,Queen Margaret Union,1751-2040
+2411432W,Jeremy Wood,Glasgow University Union,1757-2135
+2547258S,Melissa Stewart,Library,1819-2147
+2685206G,Rebecca Griffiths,Glasgow University Union,1842-1955
+2454540H,Mandy Howell,Boyd Orr Building,1821-1902
+2498842W,Josh Walker,Library,1820-2140
+2446001M,Vincent Miah,Queen Margaret Union,1812-2255
+2731502W,Teresa Wright,Kelvingrove Park,1831-2248
+2567647G,Rosemary Grant,Kelvingrove Park,1849-1915
+2642933A,Alan Allen,Queen Margaret Union,1827-1912
+2912324G,Jonny Craig,Glasgow University Union,1829-2102
+2422827J,Kieran James,Library,1823-1948
+2843155S,Tony Stokes,Glasgow University Union,1855-1912
+2678631W,Sandra Wilson,Glasgow University Union,1852-1950
+2824152H,Marian Hutchinson,Kelvingrove Park,1852-1954
+2763908W,Owen Webster,Library,1827-2019
+2445601S,Keith Saunders,Boyd Orr Building,1829-2100
+2834518P,Brenda Perry,Glasgow University Union,1823-2259
+2480281E,Sharon Ellis,Glasgow University Union,1824-1958
+2798501F,Oliver Ford,Kelvingrove Park,1825-1920
+2818528C,Paul Cox,Kelvingrove Park,1805-1910
+2570078S,Rosemary Smith,Library,1841-2101
+2723085H,Norman Hart,Queen Margaret Union,1833-2228
+2786843M,Abdul Murphy,Library,1843-1933
+2728928M,Abdul Murray,Glasgow University Union,1843-2038
+2755520M,Marion McCarthy,Boyd Orr Building,1855-2100
+2568478F,Edward Forster,Kelvingrove Park,1854-1935
+2749705T,Joe Thorpe,Queen Margaret Union,1832-1939
+2470481H,Marc Harrison,Library,1850-2120
+2827341C,Martyn Cox,Boyd Orr Building,1847-1935
+2663801S,Gary Singh,Glasgow University Union,1822-2056
+2711217D,Marie Douglas,Boyd Orr Building,1855-2100
+2527287T,Danny Thomas,Boyd Orr Building,1953-2004
+2595487S,Martin Smith,Boyd Orr Building,1903-2100
+2498867L,Susan Little,Queen Margaret Union,1911-2150
+2875227P,William Palmer,Queen Margaret Union,1908-2151
+2544001M,Fiona Miah,Queen Margaret Union,1938-2223
+2625197Y,Kelly Young,Boyd Orr Building,1932-2100
+2683781G,Toby Grant,Boyd Orr Building,1901-2100
+2426424M,Hannah Murphy,Boyd Orr Building,1932-2033
+2730014J,Rosemary Jones,Glasgow University Union,1916-2219
+2721938H,Joanna Howell,Library,1922-2321
+2797619M,Russell Matthews,Glasgow University Union,1907-2140
+2681320D,Bradley Davies,Glasgow University Union,1909-2246
+2526191H,Mohammed Harvey,Boyd Orr Building,1954-2043
+2522843B,Olivia Baker,Boyd Orr Building,1927-2022
+2681806C,William Cook,Queen Margaret Union,1945-2300
+2618619A,Aimee Andrews,Boyd Orr Building,1958-2100
+2818729W,Jack Watson,Queen Margaret Union,1905-2124
+2843288W,Derek Wilson,Queen Margaret Union,1920-2159
+2519332H,Anne Hussain,Queen Margaret Union,1941-2036
+2477517J,Gerald Jones,Boyd Orr Building,1904-2100
+2691086J,Callum Jenkins,Queen Margaret Union,1945-2300
+2792337W,Stuart Woods,Glasgow University Union,1928-2003
+2827341C,Martyn Cox,Boyd Orr Building,1938-2100
+2558530F,Luke Frost,Queen Margaret Union,1956-2235
+2710339J,Paul Jackson,Kelvingrove Park,1922-2338
+2685206G,Rebecca Griffiths,Glasgow University Union,2044-2300
+2772741H,Anthony Hughes,Queen Margaret Union,2017-2103
+2453097L,Joanna Lynch,Queen Margaret Union,2052-2222
+2725476K,Albert King,Queen Margaret Union,2008-2300
+2425599J,Angela Jones,Glasgow University Union,2001-2103
+2583004W,Francis Watkins,Glasgow University Union,2028-2242
+2523112J,Beth Jones,Queen Margaret Union,2045-2201
+2843155S,Tony Stokes,Queen Margaret Union,2015-2142
+2678631W,Sandra Wilson,Queen Margaret Union,2044-2110
+2764614J,Annette James,Kelvingrove Park,2011-2144
+2464353G,Shirley Griffiths,Queen Margaret Union,2058-2300
+2690785M,Eleanor Marsh,Boyd Orr Building,2028-2100
+2819085J,Rhys James,Kelvingrove Park,2017-0028
+2469836C,Deborah Carter,Kelvingrove Park,2031-2214
+2645195D,Jordan Dickinson,Glasgow University Union,2133-2300
+2820311J,Pamela Jones,Library,2126-0113
+2896021C,Simon Clark,Glasgow University Union,2157-2300
+2661827A,Rita Arnold,Glasgow University Union,2108-2300
+2893827J,Elliott Jones,Queen Margaret Union,2155-2300
+2878087C,Danielle Cox,Kelvingrove Park,2218-2332
+2498857H,Vincent Herbert,Queen Margaret Union,2217-2300
+2455440S,Matthew Smith,Glasgow University Union,2249-2300
+2454540H,Mandy Howell,Kelvingrove Park,2210-0201
+2832313W,Marilyn White,Glasgow University Union,2214-2300
+2739531T,Hollie Taylor,Glasgow University Union,2219-2300
+2549181S,Margaret Saunders,Kelvingrove Park,2226-0229
+2730014J,Rosemary Jones,The Hive,2247-0110
+2644470C,Fiona Chapman,The Hive,2234-0052
+2728016B,Sarah Bradshaw,Glasgow University Union,2217-2300
+2837034T,Valerie Turner,Glasgow University Union,2224-2300
+2453876J,Scott Johnston,The Hive,2231-0150
+2433194F,Teresa Ford,Kelvingrove Park,2231-2319
+2537493D,Nathan Davis,Library,2255-0200
+2567647G,Rosemary Grant,Glasgow University Union,2247-2300
+2523112J,Beth Jones,Kelvingrove Park,2221-0227
+2678631W,Sandra Wilson,Queen Margaret Union,2234-2300
+2522843B,Olivia Baker,Kelvingrove Park,2257-0208
+2786843M,Abdul Murphy,Boyd Orr Building,2208-2219
+2882607B,Jane Burns,Glasgow University Union,2258-2300
+2465684B,Gerald Bell,The Hive,2217-0058
+2813225b,Stuart Wands,The Hive,2208-0048
+2580207S,Neil Stone,Glasgow University Union,2217-2300
+2445601S,Keith Saunders,Glasgow University Union,2258-2300
+2882334J,Bethany Johnson,Glasgow University Union,2240-2300
+2791185W,Jennifer White,Glasgow University Union,2237-2300
+2470551P,Melanie Patterson,Library,2217-0105
+2761310W,Keith Wood,Library,2203-0200
+2519332H,Anne Hussain,Library,2253-0108
+2568478F,Edward Forster,The Hive,2215-0200
+2752222W,Tom Williams,The Hive,2249-0200
+2490833B,Danielle Black,Library,2248-2348
+2470481H,Marc Harrison,The Hive,2256-0200
+2792337W,Stuart Woods,Kelvingrove Park,2250-0025
+2663801S,Gary Singh,Glasgow University Union,2253-2300
+2522391J,Lee James,Queen Margaret Union,2235-2300
+2558530F,Luke Frost,The Hive,2239-0053
+2878087C,Danielle Cox,Kelvingrove Park,2336-0041
+2595487S,Martin Smith,Library,2322-0013
+2621970C,Bryan Cartwright,The Hive,2317-0200
+2572412H,Eleanor Harvey,The Hive,2328-0200
+2454863F,Joan Francis,Kelvingrove Park,2338-0340
+2832313W,Marilyn White,Library,2303-0200
+2739531T,Hollie Taylor,Library,2354-0200
+2725476K,Albert King,The Hive,2342-0050
+2446001M,Vincent Miah,Kelvingrove Park,2353-0247
+2877082J,Jeffrey Jones,The Hive,2348-0128
+2548702L,Bradley Lewis,Kelvingrove Park,2345-0358
+2583004W,Francis Watkins,The Hive,2353-0155
+2642933A,Alan Allen,Kelvingrove Park,2318-0041
+2661827A,Rita Arnold,The Hive,2338-0200
+2422827J,Kieran James,The Hive,2333-0028
+2519606S,Laura Skinner,Kelvingrove Park,2307-0042
+2581559M,Jayne Morgan,Library,2334-0052
+2764614J,Annette James,Library,2343-0132
+2438411P,Kerry Pearce,Kelvingrove Park,2340-0115
+2654342R,Kate Randall,Library,2316-0200
+2618619A,Aimee Andrews,Library,2322-0200
+2818528C,Paul Cox,Kelvingrove Park,2355-0141
+2494714C,Nigel Collins,Kelvingrove Park,2315-0013
+2723085H,Norman Hart,Library,2340-0200
+2831410G,Amelia Green,Library,2349-0200
+2818729W,Jack Watson,Library,2334-0200
+2553818H,Stacey Harrison,Library,2337-0200
+2737433D,Matthew Davis,The Hive,2321-0010
+2843288W,Derek Wilson,The Hive,2307-0029
+2477517J,Gerald Jones,Library,2114-0017
+2691086J,Callum Jenkins,The Hive,2328-0113
+2533061J,Antony James,Kelvingrove Park,2353-0340
+2858027D,Lynda Davis,Library,2351-0115
+2795502Y,Shaun Yates,Kelvingrove Park,2328-0324
