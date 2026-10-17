@@ -33,7 +33,7 @@ def wrap_text(text, font, max_width):
     lines.append(line)
     return lines
 
-def draw_building_popup(name, location_df, students_now_df):
+def draw_building_popup(surface, name, location_df, students_now_df):
     info = location_df[location_df["Building Name"] == name]
     if info.empty:
         return None, None
@@ -60,18 +60,18 @@ def draw_building_popup(name, location_df, students_now_df):
 
     popup_height = POPUP_PADDING * 2 + POPUP_TITLE_HEIGHT + len(body_lines) * POPUP_LINE_HEIGHT
     popup_rect = pygame.Rect(
-        (canvas.get_width() - POPUP_WIDTH) // 2,
-        (canvas.get_height() - popup_height) // 2,
+        (surface.get_width() - POPUP_WIDTH) // 2,
+        (surface.get_height() - popup_height) // 2,
         POPUP_WIDTH,
         popup_height,
     )
 
-    pygame.draw.rect(canvas, POPUP_BACKGROUND, popup_rect, border_radius=POPUP_CORNER_RADIUS)
-    pygame.draw.rect(canvas, POPUP_BORDER, popup_rect,
+    pygame.draw.rect(surface, POPUP_BACKGROUND, popup_rect, border_radius=POPUP_CORNER_RADIUS)
+    pygame.draw.rect(surface, POPUP_BORDER, popup_rect,
                      width=POPUP_BORDER_WIDTH, border_radius=POPUP_CORNER_RADIUS)
 
     title = title_font.render(name, True, POPUP_TITLE_COLOUR)
-    canvas.blit(title, (popup_rect.x + POPUP_PADDING, popup_rect.y + POPUP_PADDING))
+    surface.blit(title, (popup_rect.x + POPUP_PADDING, popup_rect.y + POPUP_PADDING))
 
     close_rect = pygame.Rect(
         popup_rect.right - POPUP_CLOSE_SIZE - POPUP_CLOSE_MARGIN,
@@ -80,12 +80,12 @@ def draw_building_popup(name, location_df, students_now_df):
         POPUP_CLOSE_SIZE,
     )
     close_label = popup_font.render("X", True, POPUP_CLOSE_COLOUR)
-    canvas.blit(close_label, close_label.get_rect(center=close_rect.center))
+    surface.blit(close_label, close_label.get_rect(center=close_rect.center))
 
     first_line_y = popup_rect.y + POPUP_PADDING + POPUP_TITLE_HEIGHT
     for i, line in enumerate(body_lines):
         text = popup_font.render(line, True, POPUP_TEXT_COLOUR)
-        canvas.blit(text, (popup_rect.x + POPUP_PADDING, first_line_y + i * POPUP_LINE_HEIGHT))
+        surface.blit(text, (popup_rect.x + POPUP_PADDING, first_line_y + i * POPUP_LINE_HEIGHT))
 
     return popup_rect, close_rect
 
@@ -148,7 +148,7 @@ def is_student_allowed(students_log):
     students_log["within_hours"] = within_hours
     return students_log
 
-def colour_code_students(id, students):
+def colour_code_students(id, students, colour_flag):
     if colour_flag == "none":
             return STUDENT_COLOURS[0]
     
@@ -190,19 +190,19 @@ def clicked_on_building(mouse_pos, buildings):
             return building
     return None
 
-def draw_buildings(location_df):
+def draw_buildings(surface, location_df):
     for name, lat, lon in zip(location_df["Building Name"], location_df["lat"], location_df["lon"]):
         building = pygame.Rect(lat-building_width_half, lon-building_width_half, building_width, building_width)
-        pygame.draw.rect(canvas, building_colour, building)
+        pygame.draw.rect(surface, building_colour, building)
 
-def draw_students(students):
+def draw_students(surface, students):
     for lat, lon, within_hours, id in zip(students["lat"], students["lon"], students["within_hours"], students["Student ID"]):
         if not within_hours:
             colour = VIOLATION_COLOUR
             # print(id)
         else:
-            colour = colour_code_students(id, people_df)
-        pygame.draw.circle(canvas, colour, (lat, lon), student_radius)
+            colour = colour_code_students(id, people_df, colour_flag)
+        pygame.draw.circle(surface, colour, (lat, lon), student_radius)
 
 
 location_df = pd.read_csv("location_data.csv")
@@ -272,15 +272,15 @@ while running:
 
     canvas.fill((0, 0, 0))
 
-    draw_buildings(location_df)
-    draw_students(students_to_show_df)
+    draw_buildings(canvas, location_df)
+    draw_students(canvas, students_to_show_df)
 
     time_text = f"{minutes // 60:02d}:{minutes % 60:02d}"
     label = font.render(time_text, True, (255, 255, 255))
     canvas.blit(label, (10, 10))
 
     if selected_building:
-        popup_rect, popup_close_rect = draw_building_popup(selected_building, location_df, students_to_show_df)
+        popup_rect, popup_close_rect = draw_building_popup(canvas, selected_building, location_df, students_to_show_df)
 
     colour_dropdown.draw(canvas)
 
