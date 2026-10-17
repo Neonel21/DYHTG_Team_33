@@ -5,10 +5,8 @@ from data_sort import identifier
 from config import WIDTH, HEIGHT
 from dropdown import Dropdown
 from data_processing import load_data, get_students_on_campus, is_student_allowed, initialise_building_locations
-from colours import colour_code_students
 from drawing import draw_buildings, draw_students, draw_building_popup
-from interactions import clicked_on_building
-
+from interactions import building_after_click
 
 minutes = 0
 
@@ -40,8 +38,11 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-        elif event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
-            is_paused = not is_paused
+        elif event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_SPACE:
+                is_paused = not is_paused
+            elif event.key == pygame.K_ESCAPE:
+                        selected_building = None
         elif event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
             consumed, changed = colour_dropdown.handle_click(event.pos)
 
@@ -49,17 +50,8 @@ while running:
                 colour_flag = colour_dropdown.value
 
             if not consumed:
-                if selected_building and popup_close_rect and popup_close_rect.collidepoint(event.pos):
-                    selected_building = None
-                else:
-                    hit = clicked_on_building(event.pos, buildings)
-                    if hit is not None:
-                        selected_building = hit[0]
-                    elif selected_building and popup_rect and not popup_rect.collidepoint(event.pos):
-                        selected_building = None
-        elif event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
-            selected_building = None
-
+                selected_building = building_after_click(event.pos, buildings, selected_building, 
+                                                         popup_rect, popup_close_rect)
 
     if not is_paused:
         minutes = (minutes + 1) % 1440
