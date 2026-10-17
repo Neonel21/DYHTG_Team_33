@@ -12,14 +12,12 @@ building_width_half = building_width/2
 student_radius = 2
 current_time = 0
 minutes = 0
-colour_key_rect = pygame.Rect(40,40,5,5)
 
 selected_building = None
 popup_close_rect = None
 popup_rect = None
 
-colour_flag = "year"
-
+colour_flag = "none"
 
 
 def wrap_text(text, font, max_width):
@@ -60,12 +58,12 @@ def draw_building_popup(name, location_df, students_now_df):
             body_lines.append(f"  ... and {len(violation_names) - 10} more")
         body_lines += [""]
 
-    height = POPUP_PADDING * 2 + POPUP_TITLE_HEIGHT + len(body_lines) * POPUP_LINE_HEIGHT
+    popup_height = POPUP_PADDING * 2 + POPUP_TITLE_HEIGHT + len(body_lines) * POPUP_LINE_HEIGHT
     popup_rect = pygame.Rect(
         (canvas.get_width() - POPUP_WIDTH) // 2,
-        (canvas.get_height() - height) // 2,
+        (canvas.get_height() - popup_height) // 2,
         POPUP_WIDTH,
-        height,
+        popup_height,
     )
 
     pygame.draw.rect(canvas, POPUP_BACKGROUND, popup_rect, border_radius=POPUP_CORNER_RADIUS)
@@ -200,7 +198,7 @@ def draw_buildings(location_df):
 def draw_students(students):
     for lat, lon, within_hours, id in zip(students["lat"], students["lon"], students["within_hours"], students["Student ID"]):
         if not within_hours:
-            colour = (255, 0, 0)
+            colour = VIOLATION_COLOUR
             # print(id)
         else:
             colour = colour_code_students(id, people_df)
@@ -227,7 +225,7 @@ pygame.init()
 canvas = pygame.display.set_mode((width, height))
 
 pygame.display.set_caption("Map")
-exit = False
+running = True
 clock = pygame.time.Clock()
 
 buildings = initialise_building_locations(location_df)
@@ -241,13 +239,12 @@ colour_options = ["none", "year", "subject"]
 colour_dropdown = Dropdown(10, 50, colour_options, selected=colour_options.index(colour_flag))
 
 is_paused = False
-while not exit:
+while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            exit = True
+            running = False
         elif event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
             is_paused = not is_paused
-            print("Hi")
         elif event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
             consumed, changed = colour_dropdown.handle_click(event.pos)
 
