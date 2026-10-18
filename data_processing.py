@@ -1,9 +1,7 @@
 import numpy as np
 import pandas as pd
-from config import WIDTH, HEIGHT, BUILDING_WIDTH_HALF
+from config import WIDTH, HEIGHT, BUILDING_WIDTH_HALF, DATA_DIR
 from pathlib import Path
-
-BASE_DIR = Path(__file__).parent
 
 def strip_times(column):
     times = column.str.split("-", expand=True).astype(int)
@@ -67,15 +65,15 @@ def is_student_allowed(students_log):
     return students_log
 
 def load_data():
-    location_df = pd.read_csv(BASE_DIR / "location_data.csv")
+    location_df = pd.read_csv(DATA_DIR / "location_data.csv")
 
     coords = location_df["Geolocation"].str.strip("{}").str.split(expand=True).astype(float)
     location_df[["lat", "lon"]] = coords
     location_df = normalise_lat_lon(location_df)
 
-    people_df = pd.read_csv(BASE_DIR / "people_data.csv")
+    people_df = pd.read_csv(DATA_DIR / "people_data.csv")
 
-    security_logs_df = pd.read_csv(BASE_DIR / "security_logs.csv")
+    security_logs_df = pd.read_csv(DATA_DIR / "security_logs.csv")
 
     student_logs_df = get_student_locations(security_logs_df, location_df)
 

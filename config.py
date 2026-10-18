@@ -2,6 +2,7 @@ import pandas as pd
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent
+DATA_DIR = Path(__file__).parent / "Data"
 
 WIDTH, HEIGHT = 700, 700
 BUILDING_COLOUR = (60, 66, 80)
@@ -49,7 +50,7 @@ STUDENT_COLOURS = [
 
 VIOLATION_COLOUR = (255, 0, 0)
 
-people_df = pd.read_csv(BASE_DIR / "people_data.csv")
+people_df = pd.read_csv(DATA_DIR / "people_data.csv")
 SUBJECTS = sorted(people_df["Subject"].dropna().astype(str).unique())
 # SUBJECTS = [
 #     "Philosophy",
