@@ -1,5 +1,6 @@
-streamlit
-pandas
-plotly
-pyvis
-networkx
+streamlit>=1.40
+pandas>=2.2
+plotly>=5.20
+pyvis>=0.3.2
+networkx>=3.2
+pygame>=2.6

@@ -1,0 +1,9 @@
+[project]
+name = "dyhtg-team-33"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.5.4",
+    "pandas>=3.0.6",
+    "pygame>=2.6.1",
+]
