@@ -98,7 +98,7 @@ def show_graph():
     ax.set_xlabel("Time", fontsize=9)
     ax.set_ylabel("People", fontsize=9)
     
-    #### frequency of ticks
+    #### frequency of ticks - reduced slightly to make a more overall view and less busy
     ax.set_xticks(range(0, 1440, 180))
     ax.set_xticklabels([f"{(t//60)%24:02d}:00" for t in range(0, 1440, 180)])
     
@@ -108,6 +108,8 @@ def show_graph():
     
     fig.tight_layout()
     
+    
+    #### Needs Matplot to communicte with tkinter so this creates the connection between both libraries
     canvas = FigureCanvasTkAgg(fig, master=popup)
     canvas.draw()
     canvas.get_tk_widget().pack(fill=tk.BOTH, expand=True)
