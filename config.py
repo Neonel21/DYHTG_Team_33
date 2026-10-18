@@ -1,3 +1,8 @@
+import pandas as pd
+from pathlib import Path
+
+BASE_DIR = Path(__file__).parent
+
 WIDTH, HEIGHT = 700, 700
 BUILDING_COLOUR = (60, 66, 80)
 BUILDING_WIDTH = 30
@@ -44,18 +49,21 @@ STUDENT_COLOURS = [
 
 VIOLATION_COLOUR = (255, 0, 0)
 
-SUBJECTS = [
-    "Philosophy",
-    "Veterinary Medicine",
-    "Biomechanical Engineering",
-    "Medicine",
-    "Computer Science",
-    "English Lit",
-    "Mathematics",
-    "Physics",
-    "Chemistry",
-    "Education",
-]
+people_df = pd.read_csv(BASE_DIR / "people_data.csv")
+SUBJECTS = sorted(people_df["Subject"].dropna().astype(str).unique())
+# SUBJECTS = [
+#     "Philosophy",
+#     "Veterinary Medicine",
+#     "Biomechanical Engineering",
+#     "Medicine",
+#     "Computing Science",
+#     "English Literature",
+#     "Mathematics",
+#     "Physics",
+#     "Chemistry",
+#     "Education",
+#     "Business"
+# ]
 
 SOCIETIES = [
     "Bad Movie Society",

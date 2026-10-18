@@ -7,6 +7,7 @@ from dropdown import Dropdown
 from data_processing import load_data, get_students_on_campus, is_student_allowed, initialise_building_locations
 from drawing import draw_buildings, draw_students, draw_building_popup
 from interactions import building_after_click
+from key import build_key_entries, draw_key, KEY_GAP
 
 minutes = 0
 
@@ -33,6 +34,8 @@ font = pygame.font.Font('freesansbold.ttf', 18)
 colour_options = ["none", "year", "subject"]
 colour_dropdown = Dropdown(10, 50, colour_options, selected=colour_options.index(colour_flag))
 
+key_entries = build_key_entries(colour_flag, people_df)
+
 is_paused = False
 while running:
     for event in pygame.event.get():
@@ -48,6 +51,7 @@ while running:
 
             if changed:
                 colour_flag = colour_dropdown.value
+                key_entries = build_key_entries(colour_flag, people_df)
 
             if not consumed:
                 selected_building = building_after_click(event.pos, buildings, selected_building, 
@@ -63,6 +67,8 @@ while running:
 
     draw_buildings(canvas, location_df)
     draw_students(canvas, students_to_show_df, people_df, colour_flag)
+
+    draw_key(canvas, key_entries, colour_dropdown.header_rect.x, colour_dropdown.header_rect.bottom + KEY_GAP)
 
     time_text = f"{minutes // 60:02d}:{minutes % 60:02d}"
     label = font.render(time_text, True, (255, 255, 255))
