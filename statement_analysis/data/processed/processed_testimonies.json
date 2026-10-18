@@ -1,0 +1,1062 @@
+{
+  "Amy Powell": {
+    "id": "2760042P",
+    "events": [
+      {
+        "place": "Kelvin Building",
+        "start": "0900",
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Queen Margaret Union",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      }
+    ],
+    "mentions_people": [],
+    "admits": [],
+    "evasive": false
+  },
+  "Danny Thomas": {
+    "id": "2527287T",
+    "events": [
+      {
+        "place": "Main Building",
+        "start": "0900",
+        "end": "1100",
+        "confidence": "high"
+      },
+      {
+        "place": "GUU, QMU",
+        "start": "1115",
+        "end": "1600",
+        "confidence": "medium"
+      },
+      {
+        "place": "Kelvingrove Park",
+        "start": "1600",
+        "end": "1800",
+        "confidence": "medium"
+      },
+      {
+        "place": "Boyd Orr Building",
+        "start": "1800",
+        "end": "1805",
+        "confidence": "medium"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      }
+    ],
+    "mentions_people": [],
+    "admits": [
+      "went to Boyd Orr briefly, about five minutes, to collect yoga mat"
+    ],
+    "evasive": false
+  },
+  "Stuart Wands": {
+    "id": "2813225b",
+    "events": [
+      {
+        "place": "Boyd Orr Building",
+        "start": "1000",
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Kelvingrove Park",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      },
+      {
+        "place": "St Andrews Building",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "The Hive",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      }
+    ],
+    "mentions_people": [
+      {
+        "name": "the boys (unnamed)",
+        "where": "The Hive",
+        "when": null
+      }
+    ],
+    "admits": [
+      "hungover",
+      "cannot recall events after arriving at the Hive"
+    ],
+    "evasive": true
+  },
+  "Chloe Tyler": {
+    "id": "2730211T",
+    "events": [
+      {
+        "place": "Kelvingrove Park",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      },
+      {
+        "place": "Boyd Orr Building",
+        "start": "1000",
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Library",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "low"
+      }
+    ],
+    "mentions_people": [],
+    "admits": [
+      "almost forgot 10:00 lecture",
+      "one or two pints at end of day"
+    ],
+    "evasive": true
+  },
+  "Marc Harrison": {
+    "id": "2470481H",
+    "events": [
+      {
+        "place": "James Watt Building",
+        "start": null,
+        "end": "1100",
+        "confidence": "high"
+      },
+      {
+        "place": "Off Campus",
+        "start": "1100",
+        "end": "1300",
+        "confidence": "medium"
+      },
+      {
+        "place": "Queen Margaret Union",
+        "start": "1300",
+        "end": null,
+        "confidence": "medium"
+      },
+      {
+        "place": "Library",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "The Hive",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      }
+    ],
+    "mentions_people": [],
+    "admits": [
+      "arrived at uni too early for lecture"
+    ],
+    "evasive": false
+  },
+  "Gerald Jones": {
+    "id": "2477517J",
+    "events": [
+      {
+        "place": "Kelvingrove Park",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Wolfson Medical Building",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Boyd Orr Building",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Library",
+        "start": null,
+        "end": "0000",
+        "confidence": "high"
+      }
+    ],
+    "mentions_people": [],
+    "admits": [
+      "attended Clash of Clans social at Boyd Orr",
+      "on Clash of Clans society committee"
+    ],
+    "evasive": false
+  },
+  "Lee James": {
+    "id": "2522391J",
+    "events": [
+      {
+        "place": "St Andrews Building",
+        "start": "1045",
+        "end": "1145",
+        "confidence": "medium"
+      },
+      {
+        "place": "Kelvingrove Park",
+        "start": "1200",
+        "end": "1230",
+        "confidence": "medium"
+      },
+      {
+        "place": "Wolfson Medical Building",
+        "start": "1300",
+        "end": "1500",
+        "confidence": "high"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Wolfson Medical Building",
+        "start": "1655",
+        "end": "1657",
+        "confidence": "medium"
+      },
+      {
+        "place": "GUU, QMU",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      }
+    ],
+    "mentions_people": [
+      {
+        "name": "soup-tasting gang (unnamed)",
+        "where": "Union (GUU or QMU, ambiguous)",
+        "when": "after dinner, ~25 minutes"
+      }
+    ],
+    "admits": [
+      "returned briefly to Wolfson for about two minutes to collect skateboard"
+    ],
+    "evasive": false
+  },
+  "Danielle Cox": {
+    "id": "2878087C",
+    "events": [
+      {
+        "place": "Kelvin Building",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Sir Alwyn Williams Building",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Library",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      },
+      {
+        "place": "Kelvingrove Park",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Kelvingrove Park",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      }
+    ],
+    "mentions_people": [
+      {
+        "name": "a pal (unnamed)",
+        "where": "Sir Alwyn Williams Building",
+        "when": "~30 minutes"
+      },
+      {
+        "name": "friends (unnamed)",
+        "where": "friend's home, then Kelvingrove Park and town",
+        "when": "evening"
+      }
+    ],
+    "admits": [
+      "left library early",
+      "dropped purse containing passport and went back to park to find it",
+      "had pres"
+    ],
+    "evasive": false
+  },
+  "Oscar Brown": {
+    "id": "2656431B",
+    "events": [],
+    "mentions_people": [],
+    "admits": [],
+    "evasive": true
+  },
+  "Katie Bell": {
+    "id": "2547270B",
+    "events": [
+      {
+        "place": "Kelvingrove Park",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Adam Smith Building",
+        "start": "1000",
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Main Building",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Glasgow University Union",
+        "start": "1655",
+        "end": "2000",
+        "confidence": "medium"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      }
+    ],
+    "mentions_people": [
+      {
+        "name": "Rising Stars members (unnamed)",
+        "where": "Glasgow University Union",
+        "when": "~16:55"
+      }
+    ],
+    "admits": [],
+    "evasive": false
+  },
+  "Barry Robinson": {
+    "id": "2525914R",
+    "events": [
+      {
+        "place": "Sir Alwyn Williams Building",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      },
+      {
+        "place": "Glasgow University Union",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      },
+      {
+        "place": "Main Building",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      },
+      {
+        "place": "Adam Smith Building",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      }
+    ],
+    "mentions_people": [],
+    "admits": [
+      "visited four buildings in no particular order"
+    ],
+    "evasive": true
+  },
+  "Alice Patterson": {
+    "id": "2774868P",
+    "events": [
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "low"
+      },
+      {
+        "place": "St Andrews Building",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Library",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      }
+    ],
+    "mentions_people": [],
+    "admits": [],
+    "evasive": false
+  },
+  "Beth Jones": {
+    "id": "2523112J",
+    "events": [
+      {
+        "place": "Off Campus",
+        "start": "1030",
+        "end": null,
+        "confidence": "medium"
+      },
+      {
+        "place": "Wolfson Medical Building",
+        "start": "1300",
+        "end": null,
+        "confidence": "low"
+      },
+      {
+        "place": "Kelvingrove Park",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Queen Margaret Union",
+        "start": null,
+        "end": "2200",
+        "confidence": "high"
+      },
+      {
+        "place": "Kelvingrove Park",
+        "start": "2200",
+        "end": "0200",
+        "confidence": "high"
+      }
+    ],
+    "mentions_people": [
+      {
+        "name": "Russell",
+        "where": "unspecified (drinks)",
+        "when": "~10:30"
+      },
+      {
+        "name": "Olivia",
+        "where": "Kelvingrove Park (swings)",
+        "when": "~22:00 to ~02:00"
+      }
+    ],
+    "admits": [
+      "early drinks before lecture",
+      "argued with Russell over text/after he cancelled",
+      "stayed in park until about 2am"
+    ],
+    "evasive": false
+  },
+  "Eric Parkin": {
+    "id": "2546112P",
+    "events": [
+      {
+        "place": "Kelvingrove Park",
+        "start": "0700",
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Queen Margaret Union",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Glasgow University Union",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      },
+      {
+        "place": "Main Building",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      }
+    ],
+    "mentions_people": [],
+    "admits": [],
+    "evasive": false
+  },
+  "Angela Jones": {
+    "id": "2425599J",
+    "events": [
+      {
+        "place": "Main Building",
+        "start": "1000",
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Kelvingrove Park",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Queen Margaret Union",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Boyd Orr Building",
+        "start": null,
+        "end": "1930",
+        "confidence": "high"
+      },
+      {
+        "place": "Glasgow University Union",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      }
+    ],
+    "mentions_people": [],
+    "admits": [
+      "went to Boyd Orr and worked in computer lab until 19:30",
+      "briefly at QMU",
+      "tempted to go to Hive but did not"
+    ],
+    "evasive": true
+  },
+  "Russell Dixon": {
+    "id": "2446198D",
+    "events": [
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "low"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "low"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      }
+    ],
+    "mentions_people": [],
+    "admits": [],
+    "evasive": true
+  },
+  "Martin Smith": {
+    "id": "2595487S",
+    "events": [
+      {
+        "place": "St Andrews Building",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Adam Smith Building",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Off Campus",
+        "start": "1800",
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Boyd Orr Building",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Library",
+        "start": null,
+        "end": "0000",
+        "confidence": "high"
+      }
+    ],
+    "mentions_people": [],
+    "admits": [
+      "attended Acapella Society event at Boyd Orr",
+      "got little done at library"
+    ],
+    "evasive": false
+  },
+  "Pamela Jones": {
+    "id": "2820311J",
+    "events": [
+      {
+        "place": "Main Building",
+        "start": "1200",
+        "end": null,
+        "confidence": "medium"
+      },
+      {
+        "place": "Boyd Orr Building",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Library",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      }
+    ],
+    "mentions_people": [],
+    "admits": [
+      "in Boyd Orr lab all afternoon",
+      "went home for a power nap then returned to campus"
+    ],
+    "evasive": true
+  },
+  "Jonny Craig": {
+    "id": "2712324G",
+    "events": [
+      {
+        "place": "Library",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      },
+      {
+        "place": "Library",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Adam Smith Building",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Glasgow University Union",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      }
+    ],
+    "mentions_people": [
+      {
+        "name": "a mate (unnamed)",
+        "where": "Glasgow University Union",
+        "when": null
+      }
+    ],
+    "admits": [
+      "had a pint bought for him at GUU",
+      "hectic day, may have missed things"
+    ],
+    "evasive": false
+  },
+  "Melanie Patterson": {
+    "id": "2470551P",
+    "events": [
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      },
+      {
+        "place": "Kelvingrove Park",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      },
+      {
+        "place": "Boyd Orr Building",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Boyd Orr Building",
+        "start": "1330",
+        "end": "1430",
+        "confidence": "medium"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      },
+      {
+        "place": "Library",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      }
+    ],
+    "mentions_people": [
+      {
+        "name": "friend from Italian Society (unnamed, male)",
+        "where": "Kelvingrove Park (swings)",
+        "when": "night before lecture"
+      }
+    ],
+    "admits": [
+      "only about 2 hours sleep",
+      "napped at Boyd Orr lecture",
+      "went home to sleep during day"
+    ],
+    "evasive": true
+  },
+  "Carolyn Bond": {
+    "id": "2611516B",
+    "events": [
+      {
+        "place": "St Andrews Building",
+        "start": "0900",
+        "end": "1200",
+        "confidence": "high"
+      },
+      {
+        "place": "Wolfson Medical Building",
+        "start": "1200",
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Adam Smith Building",
+        "start": "1620",
+        "end": "1700",
+        "confidence": "medium"
+      },
+      {
+        "place": "Off Campus",
+        "start": "1700",
+        "end": null,
+        "confidence": "high"
+      }
+    ],
+    "mentions_people": [],
+    "admits": [
+      "about twenty minutes late to Adam Smith meeting",
+      "got carried away watching Doctor Who at home"
+    ],
+    "evasive": false
+  },
+  "Abdul Murphy": {
+    "id": "2786843M",
+    "events": [
+      {
+        "place": "St Andrews Building",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Wolfson Medical Building",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Sir Alwyn Williams Building",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Queen Margaret Union",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      }
+    ],
+    "mentions_people": [
+      {
+        "name": "medic friends (unnamed)",
+        "where": "Wolfson Medical Building",
+        "when": null
+      }
+    ],
+    "admits": [
+      "reluctant to share data or deal with authority"
+    ],
+    "evasive": true
+  },
+  "Russell Matthews": {
+    "id": "2797619M",
+    "events": [
+      {
+        "place": "Off Campus",
+        "start": "0900",
+        "end": null,
+        "confidence": "medium"
+      },
+      {
+        "place": "Glasgow University Union",
+        "start": null,
+        "end": "1100",
+        "confidence": "high"
+      },
+      {
+        "place": "The Hive",
+        "start": null,
+        "end": null,
+        "confidence": "low"
+      },
+      {
+        "place": "Kelvingrove Park",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Glasgow University Union",
+        "start": null,
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": "2200",
+        "confidence": "high"
+      }
+    ],
+    "mentions_people": [
+      {
+        "name": "Beth",
+        "where": "Glasgow University Union",
+        "when": "before ~11:00"
+      },
+      {
+        "name": "Beth",
+        "where": "Kelvingrove Park",
+        "when": "briefly, later"
+      },
+      {
+        "name": "some other guys (unnamed)",
+        "where": "The Hive (planned, attendance unclear)",
+        "when": null
+      }
+    ],
+    "admits": [
+      "refused to go to Beth's QMU event",
+      "argued with Beth",
+      "had plan to go to HIVE with others",
+      "went home before 22:00"
+    ],
+    "evasive": false
+  },
+  "Jill Hill": {
+    "id": "2733956H",
+    "events": [
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      },
+      {
+        "place": "Off Campus",
+        "start": null,
+        "end": null,
+        "confidence": "low"
+      },
+      {
+        "place": "GUU, QMU",
+        "start": null,
+        "end": null,
+        "confidence": "medium"
+      },
+      {
+        "place": "Library",
+        "start": null,
+        "end": "1900",
+        "confidence": "high"
+      }
+    ],
+    "mentions_people": [],
+    "admits": [
+      "out the night before",
+      "slept in all morning",
+      "left library before 19:00"
+    ],
+    "evasive": false
+  },
+  "Shaun Yates": {
+    "id": "2795502Y",
+    "events": [
+      {
+        "place": "Off Campus",
+        "start": "1000",
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Boyd Orr Building",
+        "start": null,
+        "end": "1540",
+        "confidence": "high"
+      },
+      {
+        "place": "Off Campus",
+        "start": "1540",
+        "end": "2330",
+        "confidence": "high"
+      },
+      {
+        "place": "Kelvingrove Park",
+        "start": "2330",
+        "end": null,
+        "confidence": "high"
+      },
+      {
+        "place": "Off Campus",
+        "start": "0320",
+        "end": null,
+        "confidence": "high"
+      }
+    ],
+    "mentions_people": [
+      {
+        "name": "Minecraft society members (unnamed)",
+        "where": "online (Minecraft server)",
+        "when": "evening to ~03:20"
+      }
+    ],
+    "admits": [
+      "late to chemistry lecture",
+      "up all night preparing for Minecraft",
+      "tutorial at Boyd Orr until 15:40",
+      "long walk to Kelvingrove Park from 23:30"
+    ],
+    "evasive": false
+  }
+}
