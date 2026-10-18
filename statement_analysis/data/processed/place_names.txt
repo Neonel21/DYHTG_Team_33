@@ -1,0 +1,25 @@
+places_on_campus = {
+    "Boyd Orr Building": ["boyd orr", "boydy"], 
+    "James Watt Building": [], 
+    "Adam Smith Building": ["adam smith"], 
+    "Main Building": [], 
+    "Wolfson Medical Building": ["medicine building", "the wolfson"], 
+    "Glasgow University Union": ["the union", "guu"], 
+    "The Hive": ["hive"], 
+    "Sir Alwyn Williams Building": [], 
+    "Library": [],
+    "Queen Margaret Union": ["qmu", "the union"], 
+    "St Andrews Building": [],
+    "Kelvingrove Park": ["kelvingrove", "the park", "kelvin grove", "kg skate park"], 
+    "Joseph Black Building": [], 
+    "Kelvin Building": []
+}
+
+places_off_campus = [
+    "home", 
+    "tesco",  
+    "bagel mania", 
+    "town", 
+    "bed", 
+    "nandos"
+]
