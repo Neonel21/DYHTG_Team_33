@@ -1,0 +1,164 @@
+Student ID,Name,Age,Sex,Year of Study,Subject,Height,Hair colour,Societies
+2611516B,Carolyn Bond,25,Female,3,English Literature,169,#23d620,"['Soup Society', 'Sexpression', 'Dr Who Society']"
+2645195D,Jordan Dickinson,21,Male,3,Computing Science,164,#cbe253,"['Italian Society', 'Bad Movie Society', 'Clash Of Clans Society']"
+2527287T,Danny Thomas,23,Male,4,Philosophy,168,#6ae8ce,"['Back to Yoga Society', 'Big Band Society']"
+2878087C,Danielle Cox,24,Female,1,Physics,171,#aefcc1,"['Skate Society', 'Philosophy Society', 'Juggling Society', 'Grim Reaper Quidditch Club']"
+2595487S,Martin Smith,27,Male,4,English Literature,162,#d14336,"['Accapella Society', 'Dr Who Society']"
+2498857H,Vincent Herbert,24,Male,5,Medicine,176,#8aeaaa,['Motorcycling Society']
+2547258S,Melissa Stewart,22,Female,4,Veterinary Medicine,179,#4c1b91,['Soup Society']
+2730211T,Chloe Tyler,19,Female,2,Computing Science,179,#aad668,"['Astronomy Society', 'Skate Society', 'Brunei Society', 'Clash Of Clans Society']"
+2455440S,Matthew Smith,25,Male,5,Business,166,#21f2b3,"['Glasgow Latin America Society', 'Brunei Society']"
+2639862H,Stephen Hughes,21,Male,3,Physics,176,#7572c9,['Grim Reaper Quidditch Club']
+2621970C,Bryan Cartwright,22,Male,3,Business,169,#c68eff,"['Volleyball Society', 'Bad Movie Society', 'Motorcycling Society']"
+2685206G,Rebecca Griffiths,23,Female,3,Chemistry,177,#5fd15c,N/A
+2498867L,Susan Little,23,Female,5,Philosophy,166,#009e7e,N/A
+2448977C,Gareth Clayton,25,Male,5,Philosophy,175,#2f56d6,"['Motorcycling Society', 'Glasgow Uni Tech Society', ""Glasgow Students' Nightline"", 'Dr Who Society']"
+2454540H,Mandy Howell,37,Female,5,Business,162,#e23afc,"['Glasgow Uni Tech Society', 'Skate Society', 'Brunei Society']"
+2772741H,Anthony Hughes,20,Male,2,Physics,178,#f4cc9a,"['Shrek Society', 'Juggling Society']"
+2470543S,Barbara Singh,25,Female,5,Philosophy,169,#84f4b1,"['Minecraft Society', 'Rising Stars', 'Volleyball Society']"
+2625929L,Lynne Lee,21,Female,3,Mathematics,166,#d15bef,N/A
+2498842W,Josh Walker,28,Male,5,Chemistry,182,#97f46b,N/A
+2875227P,William Palmer,17,Male,1,Mathematics,182,#9bc7dd,N/A
+2760042P,Amy Powell,22,Female,2,Physics,176,#f7db3b,['Minecraft Society']
+2521060T,Jacqueline Thomas,21,Female,4,English Literature,174,#c5f963,"['Sexpression', 'Glasgow Latin America Society', 'Marxist Society', 'Rising Stars']"
+2572412H,Eleanor Harvey,22,Female,4,Computing Science,175,#fc7edc,['FemEng Society']
+2453097L,Joanna Lynch,23,Female,5,English Literature,174,#cc12e5,"['Philosophy Society', 'Italian Society']"
+2454863F,Joan Francis,24,Female,5,Engineering,183,#d1b6ef,['Rising Stars']
+2832313W,Marilyn White,21,Female,1,Computing Science,165,#319e12,['Back to Yoga Society']
+2544001M,Fiona Miah,22,Female,4,Physics,176,#e0983a,"['Skate Society', 'Juggling Society']"
+2739531T,Hollie Taylor,18,Female,2,English Literature,172,#a3f99d,['FemEng Society']
+2714499B,Anna Butler,26,Female,2,Philosophy,177,#1dba95,N/A
+2625197Y,Kelly Young,23,Female,3,Business,162,#c7fbfc,"['Philosophy Society', 'LGBTQ+ Students Association']"
+2549181S,Margaret Saunders,21,Female,4,Medicine,171,#d1874b,"['Brunei Society', 'Skate Society']"
+2683781G,Toby Grant,25,Male,3,Physics,170,#d44cdb,['Brunei Society']
+2511100D,Paige Dickinson,22,Female,4,Business,179,#d123c2,N/A
+2820311J,Pamela Jones,21,Female,1,Mathematics,164,#f49ca2,N/A
+2665521F,Suzanne Fox,21,Female,3,Physics,167,#fc79a0,"['Cymdeithas Cymry Glasgow', 'Pole Dancing Club']"
+2725476K,Albert King,25,Male,2,Chemistry,172,#b2ffe5,N/A
+2426424M,Hannah Murphy,27,Female,5,Medicine,165,#6c4db5,N/A
+2446001M,Vincent Miah,23,Male,5,Chemistry,172,#f99f81,"['Accapella Society', 'Philosophy Society']"
+2731502W,Teresa Wright,22,Female,2,Mathematics,174,#efa7ee,N/A
+2884930W,Ross Wood,21,Male,1,English Literature,172,#9399d8,N/A
+2730014J,Rosemary Jones,26,Female,2,Computing Science,165,#07576b,"['Brunei Society', 'Glasgow Latin America Society', 'Astrology Society']"
+2425599J,Angela Jones,23,Female,5,Veterinary Medicine,171,#3543ba,"[""Glasgow Students' Nightline"", 'Brunei Society', 'Motorcycling Society', 'Big Band Society']"
+2644470C,Fiona Chapman,21,Female,3,Mathematics,160,#1e50ce,['Back to Yoga Society']
+2728016B,Sarah Bradshaw,19,Female,2,Medicine,163,#5214fc,"['Italian Society', 'Rising Stars', 'Cymdeithas Cymry Glasgow', 'Glasgow Latin America Society']"
+2837034T,Valerie Turner,20,Female,1,Mathematics,166,#d655ab,"['Dr Who Society', 'Rising Stars', 'LGBTQ+ Students Association', 'Grim Reaper Quidditch Club']"
+2877082J,Jeffrey Jones,19,Male,1,Medicine,178,#ddac77,N/A
+2721938H,Joanna Howell,25,Female,2,Mathematics,173,#e02c56,"['Juggling Society', 'Glasgow Uni Tech Society', 'Volleyball Society', 'Skate Society']"
+2624636S,Henry Sharp,21,Male,3,Physics,165,#eac5a1,"['Volleyball Society', 'Pole Dancing Club', 'Volleyball Society']"
+2433194F,Teresa Ford,24,Female,5,Philosophy,177,#858e01,"['Astronomy Society', 'Grim Reaper Quidditch Club', 'Glasgow Latin America Society']"
+2627185W,Anne Webb,26,Female,3,Medicine,162,#f2dba9,"['Juggling Society', 'Philosophy Society', 'Brunei Society']"
+2548702L,Bradley Lewis,23,Male,4,Veterinary Medicine,172,#ba2c60,N/A
+2797619M,Russell Matthews,23,Male,2,Physics,153,#f2d560,"['Motorcycling Society', 'Soup Society', 'Minecraft Society', 'Brunei Society']"
+2784969D,Kimberley Dickinson,19,Female,2,Physics,164,#001384,['Skate Society']
+2537493D,Nathan Davis,22,Male,4,Mathematics,170,#f011fc,['Minecraft Society']
+2583004W,Francis Watkins,22,Female,4,Business,159,#e8cc96,"['Esports Society', 'Extinction Rebellion']"
+2567647G,Rosemary Grant,21,Female,4,Computing Science,166,#a6fcb6,N/A
+2681320D,Bradley Davies,26,Male,3,Veterinary Medicine,172,#58cc35,"['FemEng Society', 'Minecraft Society', 'Glasgow Uni Tech Society', 'Brunei Society']"
+2523112J,Beth Jones,24,Female,4,Medicine,178,#8ef9c0,"['Back to Yoga Society', 'Big Band Society']"
+2798507C,Valerie Cross,24,Female,2,Philosophy,184,#e5ffa0,N/A
+2642933A,Alan Allen,21,Male,3,Physics,162,#63a7c6,['Minecraft Society']
+2896021C,Simon Clark,20,Male,1,Business,170,#f4e692,['Astronomy Society']
+2813225B,Stuart Wands,17,Male,1,Computing Science,173,#a0f489,N/A
+2758447O,Donna Oliver,26,Female,2,Business,168,#baccf2,N/A
+2661827A,Rita Arnold,24,Female,3,Physics,172,#c99dea,"['FemEng Society', 'Bad Movie Society', ""Glasgow Students' Nightline""]"
+2422827J,Kieran James,23,Male,5,Mathematics,163,#d31f5e,"['Shrek Society', 'Soup Society', 'Extinction Rebellion', 'Motorcycling Society']"
+2729563B,Paul Butler,26,Male,2,Engineering,175,#2e4ea0,"['Sexpression', 'Esports Society']"
+2843155S,Tony Stokes,18,Male,1,Mathematics,175,#75ad22,"['Accapella Society', 'Cymdeithas Cymry Glasgow', 'Grim Reaper Quidditch Club']"
+2464451S,Jasmine Simpson,23,Female,5,Mathematics,161,#f98eab,N/A
+2734142L,Jenna Leonard,20,Female,2,Chemistry,176,#35ff67,"['Juggling Society', 'LGBTQ+ Students Association', 'Soup Society', 'Marxist Society']"
+2893827J,Elliott Jones,18,Male,1,English Literature,165,#ea4b98,['Back to Yoga Society']
+2519606S,Laura Skinner,25,Male,4,English Literature,170,#db3eef,"['Astrology Society', 'Sexpression', 'Esports Society', 'Grim Reaper Quidditch Club']"
+2861294M,Georgia Moore,19,Male,1,Business,163,#b5defc,['LGBTQ+ Students Association']
+2525914R,Barry Robinson,25,Male,4,Business,171,#ffcabf,"['Marxist Society', 'Back to Yoga Society', 'Bad Movie Society', 'Sexpression']"
+2546112P,Eric Parkin,21,Male,4,Pharmacy,170,#22b7b2,N/A
+2712324G,Jonny Craig,21,Male,3,Chemistry,178,#85d13e,"['Skate Society', 'Motorcycling Society']"
+2526191H,Mohammed Harvey,24,Male,4,Computing Science,162,#ff21f0,N/A
+2678631W,Sandra Wilson,25,Female,3,Philosophy,165,#b1ecef,"['Pole Dancing Club', 'Italian Society']"
+2495155L,Mohamed Lloyd,23,Male,5,Medicine,166,#cfe05e,"['Extinction Rebellion', 'Volleyball Society', 'Back to Yoga Society', 'Italian Society']"
+2541160O,Gerard Oliver,25,Male,4,English Literature,172,#e2b16c,N/A
+2456431B,Oscar Brown,23,Male,5,Engineering,181,#c92450,"['Astrology Society', 'Sexpression']"
+2522843B,Olivia Baker,25,Male,4,Philosophy,170,#9bf2d3,N/A
+2721346E,Sophie Evans,25,Female,2,Mathematics,171,#e9b3f9,N/A
+2581559M,Jayne Morgan,26,Female,4,Veterinary Medicine,181,#b2eef7,N/A
+2481600R,Jacob Richardson,25,Male,5,Engineering,164,#f9b8e4,N/A
+2824152H,Marian Hutchinson,24,Female,1,Business,181,#cf69db,"['Glasgow Latin America Society', 'Accapella Society']"
+2681806C,William Cook,23,Male,3,Philosophy,178,#31d67e,"['Grim Reaper Quidditch Club', 'Astronomy Society']"
+2882607B,Jane Burns,24,Female,1,Business,176,#c41b6d,N/A
+2465684B,Gerald Bell,23,Male,5,Philosophy,176,#e8ffaf,N/A
+2763908W,Owen Webster,19,Male,2,Philosophy,169,#bf2b26,"['Clash Of Clans Society', 'Astrology Society']"
+2558094B,Robin Brown,20,Male,4,Philosophy,175,#bc6242,"['Bad Movie Society', 'Skate Society', 'Skate Society']"
+2733956H,Jill Hill,21,Female,2,Medicine,161,#21a823,N/A
+2764614J,Annette James,23,Female,2,Physics,181,#fcc8bd,['Philosophy Society']
+2580207S,Neil Stone,22,Male,4,Mathematics,170,#a7f9b6,"['Pole Dancing Club', 'Esports Society', 'Italian Society', 'Shrek Society']"
+2445601S,Keith Saunders,23,Male,5,English Literature,174,#b9ef6e,"['Clash Of Clans Society', 'Brunei Society', 'Glasgow Uni Tech Society']"
+2834518P,Brenda Perry,23,Female,1,Philosophy,171,#7cc115,"['Grim Reaper Quidditch Club', 'Esports Society', 'Volleyball Society', 'Minecraft Society']"
+2438411P,Kerry Pearce,22,Female,5,Mathematics,168,#9bc5dd,"['Rising Stars', 'Motorcycling Society']"
+2464353G,Shirley Griffiths,24,Female,5,Philosophy,161,#c4ffff,"['Astronomy Society', 'FemEng Society', 'Philosophy Society']"
+2654342R,Kate Randall,22,Female,3,Engineering,172,#d1e84e,['Marxist Society']
+2882334J,Bethany Johnson,17,Female,1,Engineering,168,#d17255,"[""Glasgow Students' Nightline"", 'Brunei Society', 'Esports Society', 'Italian Society']"
+2618619A,Aimee Andrews,26,Female,3,Chemistry,178,#2bc49e,"['Glasgow Uni Tech Society', 'Rising Stars', 'Back to Yoga Society']"
+2480281E,Sharon Ellis,23,Female,5,Computing Science,172,#ef88a7,N/A
+2447060H,Sarah Harvey,23,Female,5,Medicine,175,#a9f291,['Accapella Society']
+2453876J,Scott Johnston,24,Male,5,Computing Science,180,#adf931,"{'Volleyball Society', 'Glasgow Latin America Society', 'Motorcycling Society'}"
+2647370S,Brenda Steele,25,Female,3,Engineering,170,#43e21b,"['Big Band Society', ""Glasgow Students' Nightline"", 'Cymdeithas Cymry Glasgow']"
+2774868P,Alice Patterson,26,Female,2,Engineering,171,#cce88b,"{'Volleyball Society', 'Back to Yoga Society'}"
+2510379P,Abdul Parkes,24,Male,4,Business,165,#9dd330,"['Brunei Society', 'Dr Who Society']"
+2874921K,Lorraine Khan,18,Female,1,Veterinary Medicine,165,#f28ae7,"['Accapella Society', 'Extinction Rebellion']"
+2791185W,Jennifer White,24,Female,2,Business,175,#8c8bd3,"['Volleyball Society', 'Big Band Society']"
+2798501F,Oliver Ford,20,Male,2,Philosophy,174,#df09f7,"['FemEng Society', 'Back to Yoga Society']"
+2818528C,Paul Cox,17,Male,1,Computing Science,166,#f2c9ff,"['Clash Of Clans Society', 'Bad Movie Society', 'Juggling Society']"
+2868646W,Howard Woodward,25,Male,1,Philosophy,172,#e6ef7c,"['LGBTQ+ Students Association', 'Shrek Society']"
+2834184T,Sandra Taylor,18,Female,1,Physics,170,#d0f751,['Marxist Society']
+2570078S,Rosemary Smith,26,Female,4,Chemistry,168,#c6a537,"['Pole Dancing Club', 'Brunei Society', 'Soup Society']"
+2465403M,Michael Mills,24,Male,5,Veterinary Medicine,161,#99fccc,"['FemEng Society', 'LGBTQ+ Students Association', 'Shrek Society', 'Esports Society']"
+2494714C,Nigel Collins,22,Male,5,Physics,169,#3997db,N/A
+2470551P,Melanie Patterson,23,Female,5,Computing Science,166,#a1d640,['Italian Society']
+2821638S,Ross Singh,17,Male,1,Business,165,#c1ed15,"['Shrek Society', 'Clash Of Clans Society']"
+2761310W,Keith Wood,22,Male,2,English Literature,169,#3897a5,N/A
+2723085H,Norman Hart,19,Male,2,Medicine,164,#4193a8,"['Big Band Society', ""Glasgow Students' Nightline"", 'Shrek Society']"
+2690785M,Eleanor Marsh,21,Female,3,Business,160,#4fff98,"['LGBTQ+ Students Association', 'Juggling Society', 'Pole Dancing Club', 'Skate Society']"
+2831841M,Charlotte Matthews,23,Female,1,Computing Science,172,#fcefb5,"['Glasgow Latin America Society', 'Philosophy Society']"
+2831410G,Amelia Green,20,Female,1,Philosophy,174,#ed8e89,"['LGBTQ+ Students Association', 'Glasgow Uni Tech Society', 'Accapella Society', 'Philosophy Society']"
+2750326B,Mark Begum,26,Male,2,Philosophy,169,#91cae0,"['Italian Society', 'Grim Reaper Quidditch Club', 'Extinction Rebellion', 'Sexpression']"
+2818729W,Jack Watson,21,Male,1,Computing Science,164,#0c0060,"['Italian Society', 'Skate Society', 'Shrek Society']"
+2553818H,Stacey Harrison,25,Female,4,Medicine,163,#7e51cc,"['Back to Yoga Society', 'Esports Society', 'Glasgow Uni Tech Society']"
+2737433D,Matthew Davis,18,Male,2,Veterinary Medicine,161,#e23190,"['Philosophy Society', 'Grim Reaper Quidditch Club']"
+2547270B,Katie Bell,22,Female,4,Business,171,#1851cc,"['Rising Stars', 'Cymdeithas Cymry Glasgow', 'Sexpression', 'Minecraft Society']"
+2728928M,Abdul Murray,21,Male,2,Veterinary Medicine,173,#ea88ac,N/A
+2843288W,Derek Wilson,21,Male,1,Computing Science,171,#a00913,['Dr Who Society']
+2519332H,Anne Hussain,22,Female,4,Physics,165,#39e81e,"['Rising Stars', 'Extinction Rebellion', 'Grim Reaper Quidditch Club']"
+2713405W,Adrian Williams,20,Male,2,Philosophy,165,#c374e0,"['Pole Dancing Club', 'Accapella Society', 'Motorcycling Society']"
+2549962J,Teresa Jones,24,Female,4,Mathematics,177,#ef43be,['Astronomy Society']
+2677899P,Anna Parker,21,Female,3,Philosophy,166,#678909,"['Grim Reaper Quidditch Club', 'Sexpression', 'Glasgow Uni Tech Society', 'Bad Movie Society']"
+2477517J,Gerald Jones,26,Male,5,Medicine,166,#ffd3c4,['Clash Of Clans Society']
+2755520M,Marion McCarthy,25,Female,2,Chemistry,165,#f9c4b8,N/A
+2568478F,Edward Forster,22,Male,4,Business,170,#ccfcff,"['Philosophy Society', 'Shrek Society', 'Esports Society']"
+2774753B,Jill Banks,26,Female,2,Business,175,#77b4ea,['Rising Stars']
+2752222W,Tom Williams,22,Male,2,Mathematics,164,#b9ff70,"['Minecraft Society', 'Grim Reaper Quidditch Club', 'Skate Society', 'Extinction Rebellion']"
+2749705T,Joe Thorpe,19,Male,2,Philosophy,165,#84f4c4,"['Skate Society', 'Philosophy Society']"
+2691086J,Callum Jenkins,21,Male,3,Chemistry,177,#92db32,"['Juggling Society', 'Italian Society', 'Accapella Society']"
+2490833B,Danielle Black,23,Female,5,Computing Science,176,#816ddb,"['Philosophy Society', 'Cymdeithas Cymry Glasgow', 'Marxist Society', 'Glasgow Uni Tech Society']"
+2470481H,Marc Harrison,23,Male,5,Mathematics,172,#caa4fc,N/A
+2792337W,Stuart Woods,19,Male,2,Mathematics,185,#1b9b3b,['Marxist Society']
+2571499C,Anne Cooper,22,Female,4,Veterinary Medicine,173,#a95dd8,N/A
+2410968J,Lee Jones,26,Female,5,Mathematics,171,#d102c6,"['Astrology Society', 'LGBTQ+ Students Association', 'Juggling Society', 'Brunei Society']"
+2533061J,Antony James,22,Male,4,Chemistry,168,#dd73d1,['Astrology Society']
+2448644B,Graeme Barnes,22,Male,5,Chemistry,183,#dd6a8d,"['Glasgow Uni Tech Society', 'Cymdeithas Cymry Glasgow', 'Esports Society', 'Big Band Society']"
+2827341C,Martyn Cox,20,Male,1,Medicine,171,#ddbc02,['Skate Society']
+2739234J,Sophie Johnston,24,Female,2,Chemistry,160,#014070,N/A
+2411432W,Jeremy Wood,23,Male,5,Mathematics,171,#48d341,"['Shrek Society', 'Pole Dancing Club', 'Big Band Society']"
+2819085J,Rhys James,25,Male,1,Medicine,176,#e23c16,"['Marxist Society', 'Juggling Society']"
+2663801S,Gary Singh,21,Male,3,Computing Science,163,#ff70c3,"['Glasgow Latin America Society', 'Bad Movie Society']"
+2522391J,Lee James,22,Male,4,Medicine,157,#a8002f,"['Sexpression', 'Skate Society', 'Soup Society']"
+2711217D,Marie Douglas,23,Female,2,Chemistry,160,#cfffaa,['Sexpression']
+2870428T,Carole Taylor,24,Female,1,Veterinary Medicine,183,#06844b,N/A
+2858027D,Lynda Davis,26,Female,1,Chemistry,170,#a292db,['Glasgow Latin America Society']
+2687223Y,Heather Yates,26,Female,3,Engineering,172,#bc3158,"['Esports Society', 'LGBTQ+ Students Association', 'LGBTQ+ Students Association', 'Shrek Society']"
+2469836C,Deborah Carter,23,Female,5,Physics,169,#1dd162,['LGBTQ+ Students Association']
+2795502Y,Shaun Yates,21,Male,2,Chemistry,170,#55bf09,"['Minecraft Society', 'Back to Yoga Society', 'Glasgow Uni Tech Society', 'Juggling Society']"
+2786843M,Abdul Murphy,24,Male,2,English Literature,167,#e079db,"['Bad Movie Society', 'Grim Reaper Quidditch Club', 'Sexpression', 'Brunei Society']"
+2558530F,Luke Frost,24,Male,4,Mathematics,164,#451fdd,"['Back to Yoga Society', 'Accapella Society', 'Dr Who Society', 'Brunei Society']"
+2710339J,Paul Jackson,20,Male,2,Medicine,158,#7181e8,"['Juggling Society', 'Skate Society', 'Clash Of Clans Society', 'FemEng Society']"
+2446198D,Russell Dixon,26,Male,5,Mathematics,173,#c62edd,"{'Minecraft Society', 'Bad Movie Society', 'Juggling Society'}"

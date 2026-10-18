@@ -15,6 +15,7 @@ import plotly.graph_objects as go
 import streamlit as st
 import streamlit.components.v1 as components
 from pyvis.network import Network
+from pygame_tab import render_pygame_tab
 
 st.set_page_config(page_title='Expedition33', page_icon='🎆', layout='wide')
 DATA = Path(__file__).parent / 'data'
@@ -76,7 +77,7 @@ P = people.set_index('Name')
 B = places.set_index('Building Name')
 
 
-# --------------------------------------------------------------------------- 2. statements
+# 2) Statements
 def read_statements(text):
     out = {}
     for block in re.split(r'\n\s*Statement \d+\s*\n', '\n' + text):
@@ -104,10 +105,10 @@ def places_claimed(text):
 statements = read_statements(statements_text)
 
 
-# --------------------------------------------------------------------------- 3. red flags
+# 3) Red flags (for conspirators and masterminds)
 @st.cache_data
 def find_flags():
-    flags = []                      # (name, severity, flag, detail, visit rows)
+    flags = [] # (name, severity, flag, detail, visit rows)
     for _, p in people.iterrows():
         name, sid = p['Name'], p['Student ID']
         day = logs[logs['Name'] == name].sort_values('Start')
@@ -206,7 +207,7 @@ def find_communities():
         return top.index[0] if len(top) == 1 or top.iloc[1] < 3 else f'{top.index[0]} & {top.index[1]}'
     names = [label(g) for g in groups]
 
-    # layout: each community in its own cluster, clusters arranged in a ring
+    # layout of each community in its own cluster, clusters arranged in a ring
     ring = nx.circular_layout(range(len(groups)), scale=3.2)
     pos = {}
     for i, g in enumerate(groups):
@@ -227,11 +228,11 @@ groups, group_names, community, positions, ring, community_links = find_communit
 GROUP_COLOURS = ['#3987e5', '#199e70', '#c98500', '#d55181', '#008300', '#7d7bb8', '#5f8fa8', '#a07a5a']
 
 
-# --------------------------------------------------------------------------- 5. the page
+# 5) The Page:
 st.title('Expedition33')
 st.caption('DYHTG Hackathon project for SAS category.')
 
-tab1, tab2, tab3, tab4 = st.tabs(['Overview', 'The Web Graph', 'Campus Map', 'Student Search'])
+tab1, tab2, tab4, tab5 = st.tabs(['Overview', 'The Web Graph', 'Student Search', 'Simulation Game'])
 
 with tab1:
     c = st.columns(4)
@@ -271,7 +272,7 @@ with tab2:
     components.html(html, height=640)
     st.markdown('🎯 purple = Mastermind  ·  ⛑ red = conspirator  ·  thicker line = longer together')
 
-    # ---- community graphs
+    #Community graphs
     st.divider()
     st.subheader('Communities')
     suspects_in = {i: [n for n in groups[i] if role[n] != 'Clear'] for i in range(len(groups))}
@@ -281,7 +282,7 @@ with tab2:
                f'so this isn’t one friendship group: someone had to bring them together.')
     left, right = st.columns([3, 2])
 
-    # chart 1: everyone, clustered by community, suspects highlighted
+    #Chart 1. Everyone, clustered by community, suspects highlighted
     fig = go.Figure()
     for (a, b) in itertools.combinations([Mastermind] + conspirators, 2):
         if (a == Mastermind or b == Mastermind) and meetings(a, b):
@@ -308,7 +309,7 @@ with tab2:
     left.caption('Small dots = students, coloured by community. Red = conspirator, purple = Mastermind '
                  '(lines show who the Mastermind met).')
 
-    # chart 2: one circle per community, thicker line = more connected
+    #Chart 2: one circle per community, thicker line
     fig = go.Figure()
     top = max(community_links.values())
     for (a, b), w in community_links.items():
@@ -336,38 +337,6 @@ with tab2:
                   'suspects are inside. Thicker line = more links between two communities.')
 
 
-with tab3:
-    t = st.select_slider('Time', options=list(range(3 * 60, 27 * 60 + 1, 10)), value=22 * 60 + 10, format_func=fmt)
-    here = logs[(logs['Start'] <= t) & (logs['End'] > t)]
-    left, right = st.columns([3, 1])
-    fig = go.Figure()
-    is_open = [(o <= t < c) or (o <= t + 1440 < c) for o, c in zip(places['Open'], places['Close'])]
-    fig.add_scatter(x=places['Lon'], y=places['Lat'], mode='markers+text', text=places['Building Name'].str.replace(' Building', ''),
-                    textposition='top center', marker=dict(size=22, color=['#2a3a55' if o else '#2a2a28' for o in is_open]),
-                    textfont=dict(color=['#c3c2b7' if o else '#5f5e5a' for o in is_open]), hoverinfo='skip', showlegend=False)
-    xs, ys, colours, sizes, labels = [], [], [], [], []
-    for place, group_ in here.groupby('Location'):            
-        lat, lon = B.loc[place, ['Lat', 'Lon']]
-        for k, (idx, v) in enumerate(group_.iterrows()):
-            r = 0.00009 * (k + 1) ** 0.5
-            xs.append(lon + 1.8 * r * math.cos(k * 2.4))
-            ys.append(lat + r * math.sin(k * 2.4))
-            who = role[v['Name']]
-            colours.append('#ff4d4d' if idx in bad_visits else COLOUR[who] if who != 'Clear' else '#8a8984')
-            sizes.append(15 if idx in bad_visits or who != 'Clear' else 9)
-            labels.append(f"{v['Name']} · {place} {fmt(v['Start'])}–{fmt(v['End'])}")
-    fig.add_scatter(x=xs, y=ys, mode='markers', marker=dict(size=sizes, color=colours),
-                    hovertext=labels, hoverinfo='text', showlegend=False)
-    fig.update_layout(height=560, margin=dict(l=0, r=0, t=0, b=0), paper_bgcolor='rgba(0,0,0,0)',
-                      plot_bgcolor='rgba(0,0,0,0)', xaxis=dict(visible=False), yaxis=dict(visible=False))
-    left.plotly_chart(fig, use_container_width=True, theme=None)
-    left.caption('Since some students supplied inconsistent data, and broke rules, this was indicated' \
-                 'with the following.' \
-                 '\nDots = students (purple = Mastermind, red = conspirator). Bright red = breaking a rule right now. '
-                 'Dimmed names = building closed. ')
-    right.metric('On campus', len(here))
-    for _, v in here[here.index.isin(bad_visits)].iterrows():
-        right.error(f"**{v['Name']}** · {v['Location']}")
 
 with tab4:
     order = [Mastermind] + conspirators + sorted(n for n in people['Name'] if role[n] == 'Clear' and n != Mastermind)
@@ -402,3 +371,7 @@ with tab4:
         st.markdown('**Meetings with conspirators**')
         st.dataframe(pd.DataFrame([(c, w, fmt(s), fmt(e)) for c in conspirators for w, s, e in meetings(name, c)],
                                   columns=['Conspirator', 'Where', 'From', 'To']), hide_index=True, use_container_width=True)
+
+with tab5: # For the game simulation
+    st.caption('Our pygame campus simulation. Click the game to start it.')
+    render_pygame_tab()
