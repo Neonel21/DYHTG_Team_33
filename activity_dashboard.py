@@ -117,5 +117,5 @@ def show_graph():
 btn = tk.Button(root, text="View Graph", command=show_graph, font=("Arial", 10), bg="lightblue")
 btn.pack(pady=15)
 
-#### Rinse and repeat for all the other locations and their respective data
+#### keeps the windows open until closed by user
 root.mainloop()
